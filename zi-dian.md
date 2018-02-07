@@ -130,7 +130,10 @@ Out[150]: False
 
 ### &lt;9&gt;clear\(\)清空整个字典
 
-
+```
+info = {'name':'班长', 'sex':'f', 'address':'地球亚洲中国北京'}
+info.clear() # 清空整个字典
+```
 
 get\(\)
 
