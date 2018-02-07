@@ -85,5 +85,9 @@ insert\(index, object\) 在指定位置index前插入元素object
 [0, 3, 1, 2]
 ```
 
+#### &lt;2&gt;修改元素\("改"\)
+
+
+
 
 
