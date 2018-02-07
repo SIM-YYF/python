@@ -295,5 +295,13 @@ In [48]:
 mystr.rfind(str, start=0,end=len(mystr) )
 ```
 
+### &lt;19&gt;rindex {#rindex}
+
+类似于 index\(\)，不过是从右边开始.
+
+```
+mystr.rindex( str, start=0,end=len(mystr))
+```
+
 
 
