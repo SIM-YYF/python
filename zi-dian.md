@@ -97,6 +97,12 @@ In [137]:
 
 ```
 
+In [133]: info={'name':'ywf', 'age':10,'sex':1}
+
+In [137]: info.values()
+Out[137]: dict_values(['ywf', 10, 1])
+
+In [138]:
 ```
 
 ### &lt;4&gt;items {#items}
