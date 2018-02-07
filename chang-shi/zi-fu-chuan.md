@@ -249,5 +249,19 @@ Out[40]: '       hello world python'
 In [41]:
 ```
 
+#### &lt;14&gt;center {#center}
+
+返回一个原字符串居中,并使用空格填充至长度 width 的新字符串
+
+```
+In [36]: name='hello world python'
+
+
+In [41]: name.center(25)
+Out[41]: '    hello world python   '
+
+In [42]:
+```
+
 
 
