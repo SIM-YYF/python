@@ -90,3 +90,22 @@ Out[12]: -1
 
 跟find\(\)方法一样，只不过如果str不在 mystr中会报一个异常.
 
+如：
+
+```
+
+In [10]: name='hellow fly'
+
+In [13]: name.index('ywf',0, len(name))
+---------------------------------------------------------------------------
+ValueError                                Traceback (most recent call last)
+<ipython-input-13-584e280768fb> in <module>()
+----> 1 name.index('ywf',0, len(name))
+
+ValueError: substring not found
+
+In [14]:
+```
+
+
+
