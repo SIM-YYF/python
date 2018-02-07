@@ -351,7 +351,6 @@ Out[61]: False
 如果 mystr 只包含数字则返回 True 否则返回 False
 
 ```
-
 In [63]: name='123456'
 
 In [64]: name.isdigit()
@@ -363,6 +362,32 @@ In [66]: name.isdigit()
 Out[66]: False
 
 In [67]:
+```
+
+### &lt;25&gt;isalnum {#isalnum}
+
+如果 mystr 所有字符都是字母或数字则返回 True,否则返回 False
+
+```
+In [68]: name='123456'
+
+In [69]: name.isalnum()
+Out[69]: True
+
+In [70]: name='123abc'
+
+In [71]: name.isalnum()
+Out[71]: True
+
+In [72]: name='abcdef'
+
+In [73]: name.isalnum()
+Out[73]: True
+
+In [74]: name='123 abc'
+
+In [75]: name.isalnum()
+Out[75]: False
 ```
 
 
