@@ -18,5 +18,13 @@ print(namesList[1])
 print(namesList[2])
 ```
 
+#### 列表的循环遍历
+
+```
+    namesList = ['xiaoWang','xiaoZhang','xiaoHua']
+    for name in namesList:
+        print(name)
+```
+
 
 
