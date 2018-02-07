@@ -57,6 +57,17 @@ In [190]:
 
 #### &lt;3&gt; 遍历字典的项（元素） {#遍历字典的项（元素）}
 
+```
+Out[180]: info={'age': 10, 'name': 'ywf'}
+
+In [190]: for item in info.items():
+     ...:     print(item)
+('name', 'ywf')
+('age', 10)
+
+In [191]:
+```
+
 #### &lt;4&gt; 遍历字典的key-value（键值对） {#遍历字典的项（元素）}
 
 ## 字典的常见操作
