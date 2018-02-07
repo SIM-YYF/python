@@ -11,6 +11,7 @@
   * [字符串](chang-shi/zi-fu-chuan.md)
   * [切片](chang-shi/qie-pian.md)
 * [列表](lie-biao.md)
+* [排序](pai-xu.md)
 * [字典](zi-dian.md)
 * [可变类型与不可变类型](ke-bian-lei-xing-yu-bu-ke-bian-lei-xing.md)
 * [集合](ji-he.md)
@@ -33,5 +34,4 @@
   * redis
 * [web服务器](webfu-wu-qi.md)
 * [MQTT](mqtt.md)
-* 可变类型与不可变类型
 
