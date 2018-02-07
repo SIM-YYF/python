@@ -6,6 +6,7 @@
   * [格式化输出](chang-shi/ge-shi-hua-shu-chu.md)
   * [输入](chang-shi/shu-ru.md)
   * [运算符](chang-shi/yun-suan-fu.md)
+  * [数据类型转换](chang-shi/shu-ju-lei-xing-zhuan-huan.md)
 * [列表](lie-biao.md)
 * [字典](zi-dian.md)
 * [集合](ji-he.md)
