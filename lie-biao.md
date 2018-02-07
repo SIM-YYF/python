@@ -43,5 +43,19 @@ print(namesList[2])
 
 通过append可以向列表添加元素
 
+```
+In [126]: names=['xiaowang', 'mingming','tom']
+
+In [127]: names
+Out[127]: ['xiaowang', 'mingming', 'tom']
+
+In [128]: names.append('fly')
+
+In [129]: names
+Out[129]: ['xiaowang', 'mingming', 'tom', 'fly']
+
+In [130]:
+```
+
 
 
