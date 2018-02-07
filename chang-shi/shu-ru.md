@@ -1,7 +1,5 @@
 # python2中的输入
 
-
-
 ### 1.1 raw\_input\(\) {#11-rawinput}
 
 在Python中，获取键盘输入的数据的方法是采用 raw\_input 函数。如：
@@ -33,9 +31,7 @@ input('请输入表达式：')
 
 **input\(\)只接受表达式输入，并把表达式的结果赋值给等号左边的变量**
 
-
-
 # python3中的输入
 
-
+没有raw\_input\(\)函数，只有input\(\)，并且 python3中的input与python2中的raw\_input\(\)功能一样
 
