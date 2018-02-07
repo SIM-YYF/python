@@ -82,6 +82,15 @@ In [135]:
 
 返回一个包含字典所有KEY的列表
 
+```
+In [133]: info={'name':'ywf', 'age':10,'sex':1}
+
+In [136]: info.keys()
+Out[136]: dict_keys(['name', 'age', 'sex'])
+
+In [137]:
+```
+
 ### &lt;3&gt;values {#values}
 
 返回一个包含字典所有value的列表
