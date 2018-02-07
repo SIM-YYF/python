@@ -324,5 +324,16 @@ In [54]:
 mystr.rpartition(str)
 ```
 
+### &lt;22&gt;splitlines {#splitlines}
+
+按照行分隔，返回一个包含各行作为元素的列表
+
+```
+In [59]: myStr='hello \n world \n python3.6'
+
+In [60]: myStr.splitlines()
+Out[60]: ['hello ', ' world ', ' python3.6']
+```
+
 
 
