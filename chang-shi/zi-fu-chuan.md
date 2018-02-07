@@ -182,5 +182,19 @@ In [28]: name.startswith('yuan')
 Out[28]: True
 ```
 
+#### &lt;9&gt;endswith {#endswith}
+
+检查字符串是否以obj结束，如果是返回True,否则返回 False.
+
+```
+In [20]: name='yuan wen fei'
+
+In [29]: name.endswith('fei')
+Out[29]: True
+
+In [30]: name.endswith('fei2')
+Out[30]: False
+```
+
 
 
