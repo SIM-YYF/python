@@ -42,6 +42,19 @@ age
 
 #### &lt;2&gt; 遍历字典的value（值） {#遍历字典的value（值）}
 
+```
+Out[180]: info={'age': 10, 'name': 'ywf'}
+
+In [189]: for value in info.values():
+     ...:     print(value)
+     ...:
+     ...:
+ywf
+10
+
+In [190]:
+```
+
 #### &lt;3&gt; 遍历字典的项（元素） {#遍历字典的项（元素）}
 
 #### &lt;4&gt; 遍历字典的key-value（键值对） {#遍历字典的项（元素）}
