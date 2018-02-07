@@ -87,7 +87,17 @@ insert\(index, object\) 在指定位置index前插入元素object
 
 #### &lt;2&gt;修改元素\("改"\)
 
+修改元素的时候，要通过下标来确定要修改的是哪个元素，然后才能进行修改
 
+```
+In [126]: names=['xiaowang', 'mingming','tom']
+In [130]: names[0]='xiaowang2'
+
+In [131]: names
+Out[131]: ['xiaowang2', 'mingming', 'tom', 'fly']
+
+In [132]:
+```
 
 
 
