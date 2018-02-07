@@ -346,5 +346,13 @@ In [61]: myStr.isalpha()
 Out[61]: False
 ```
 
+### &lt;24&gt;isdigit {#isdigit}
+
+如果 mystr 只包含数字则返回 True 否则返回 False
+
+```
+mystr.isdigit() 
+```
+
 
 
