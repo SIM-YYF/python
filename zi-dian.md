@@ -96,7 +96,6 @@ In [137]:
 返回一个包含字典所有value的列表
 
 ```
-
 In [133]: info={'name':'ywf', 'age':10,'sex':1}
 
 In [137]: info.values()
@@ -107,7 +106,7 @@ In [138]:
 
 ### &lt;4&gt;items {#items}
 
-返回一个包含所有（键，值）元祖的列表
+返回一个包含所有（键，值）元组的列表
 
 ### &lt;5&gt;has\_key {#haskey}
 
