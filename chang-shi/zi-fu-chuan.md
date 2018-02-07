@@ -384,7 +384,7 @@ In [72]: name='abcdef'
 In [73]: name.isalnum()
 Out[73]: True
 
-In [74]: name='123 abc'
+In [74]: name='123 abc' # 包含 ‘ ’空格  
 
 In [75]: name.isalnum()
 Out[75]: False
