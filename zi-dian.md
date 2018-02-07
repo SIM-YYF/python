@@ -191,11 +191,5 @@ In [172]: info
 Out[172]: {}
 ```
 
-update\(\)
 
-copy\(\)
-
-fromkeys\(\)
-
-setdefault\(\)
 
