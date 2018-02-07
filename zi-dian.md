@@ -151,12 +151,24 @@ In [164]: info.get('name')
 
 In [165]: info.get('age')
 Out[165]: 10
-
 ```
 
-&lt;11&gt;pop\(key\)
+### &lt;11&gt;pop\(key\)
 
+根据key移除元素，移除的key不存在，抛出移除
 
+```
+Out[163]: info={'age': 10, 'sex': 1}
+
+In [167]: info.pop('age')
+Out[167]: 10
+
+In [168]: info
+Out[168]: {'sex': 1}
+
+In [169]:
+
+```
 
 popitem\(\)
 
