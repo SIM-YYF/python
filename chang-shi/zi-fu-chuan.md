@@ -116,8 +116,11 @@ In [14]: name.count('ywf',0, len(name))
 Out[14]: 0
 In [15]: name.count('fly',0, len(name))
 Out[15]: 1
-
 ```
+
+#### &lt;4&gt;replace {#replace}
+
+把 mystr 中的 str1 替换成 str2,如果 count 指定，则替换不超过 count 次.
 
 
 
