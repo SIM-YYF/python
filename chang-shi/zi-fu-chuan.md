@@ -395,6 +395,16 @@ Out[75]: False
 如果 mystr 中只包含空格，则返回 True，否则返回 False.
 
 ```
+In [74]: name='123 abc'
 
+In [76]: name.isspace()
+Out[76]: False
+
+In [77]: name='   '
+
+In [78]: name.isspace()
+Out[78]: True
 ```
+
+
 
