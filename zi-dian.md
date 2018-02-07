@@ -70,6 +70,18 @@ In [191]:
 
 #### &lt;4&gt; 遍历字典的key-value（键值对） {#遍历字典的项（元素）}
 
+```
+Out[180]: info={'age': 10, 'name': 'ywf'}
+
+In [191]: for key,value in info.items():
+     ...:     print(key,value)
+     ...:
+name ywf
+age 10
+
+In [192]:
+```
+
 ## 字典的常见操作
 
 ### &lt;1&gt;修改元素
