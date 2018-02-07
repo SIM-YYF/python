@@ -184,7 +184,6 @@ In [169]:
 ```
 Out[163]: info={'sex': 1}
 
-
 In [171]: info.popitem()
 Out[171]: ('sex', 1)
 
