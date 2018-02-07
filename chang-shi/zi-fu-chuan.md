@@ -93,7 +93,6 @@ Out[12]: -1
 如：
 
 ```
-
 In [10]: name='hellow fly'
 
 In [13]: name.index('ywf',0, len(name))
@@ -106,6 +105,10 @@ ValueError: substring not found
 
 In [14]:
 ```
+
+#### &lt;3&gt;count {#count}
+
+返回 str在字符串start和end之间出现的次数
 
 
 
