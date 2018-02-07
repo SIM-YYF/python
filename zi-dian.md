@@ -116,7 +116,7 @@ Out[138]: dict_items([('name', 'ywf'), ('age', 10), ('sex', 1)])
 In [139]:
 ```
 
-### &lt;5&gt;in 判断是否包含key {#haskey}
+### &lt;5&gt; in 判断是否包含key {#haskey}
 
 使用 in 判断是否包含key。
 
