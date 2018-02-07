@@ -132,5 +132,25 @@ Out[16]: 'hellow ywf'
 
 以 str 为分隔符切片 mystr，如果 maxsplit有指定值，则仅分隔 maxsplit 个子字符串
 
+```
+In [20]: name='yuan wen fei'
+
+In [21]: name.split(' ')
+Out[21]: ['yuan', 'wen', 'fei']
+
+In [22]: name.split(' ',1)
+Out[22]: ['yuan', 'wen fei']
+
+In [23]: name.split('',1)
+---------------------------------------------------------------------------
+ValueError                                Traceback (most recent call last)
+<ipython-input-23-20ac7dc6cace> in <module>()
+----> 1 name.split('',1)
+
+ValueError: empty separator
+
+In [24]:
+```
+
 
 
