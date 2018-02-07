@@ -152,5 +152,11 @@ ValueError: empty separator
 In [24]:
 ```
 
+#### &lt;6&gt;capitalize {#capitalize}
+
+字符串的第一个字符大写
+
+
+
 
 
