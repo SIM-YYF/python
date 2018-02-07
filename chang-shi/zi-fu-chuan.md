@@ -308,7 +308,12 @@ mystr.rindex( str, start=0,end=len(mystr))
 把mystr以str分割成三部分,str前，str和str后
 
 ```
-mystr.partition(str)
+In [52]: name='hello world python3.6 '
+
+In [53]: name.partition('python')
+Out[53]: ('hello world ', 'python', '3.6 ')
+
+In [54]:
 ```
 
 
