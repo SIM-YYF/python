@@ -39,7 +39,7 @@ print(namesList[2])
 
 #### &lt;1&gt;添加元素\(append, extend, insert\)
 
-#### append {#append}
+##### append
 
 通过append可以向列表添加元素.
 
@@ -59,7 +59,7 @@ Out[129]: ['xiaowang', 'mingming', 'tom', 'fly']
 In [130]:
 ```
 
-#### extend {#extend}
+##### extend
 
 通过extend可以将另一个集合中的元素逐一添加到列表中
 
@@ -74,7 +74,7 @@ In [130]:
 [1, 2, [3, 4], 3, 4]
 ```
 
-#### insert {#insert}
+##### insert
 
 insert\(index, object\) 在指定位置index前插入元素object
 
@@ -97,6 +97,10 @@ Out[131]: ['xiaowang2', 'mingming', 'tom']
 
 In [132]:
 ```
+
+#### &lt;3&gt;查找元素\("查"in, not in, index, count\)
+
+
 
 
 
