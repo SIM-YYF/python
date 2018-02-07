@@ -102,7 +102,7 @@ In [132]:
 
 所谓的查找，就是看看指定的元素是否存在
 
-##### in, not in
+#### in, not in
 
 python中查找的常用方法为：
 
@@ -121,6 +121,26 @@ python中查找的常用方法为：
         print('在字典中找到了相同的名字')
     else:
         print('没有找到')
+```
+
+说明：
+
+> in的方法只要会用了，那么not in也是同样的用法，只不过not in判断的是不存在
+
+
+
+#### index, count {#index-count}
+
+index和count与字符串中的用法相同
+
+```
+>>> a = ['a', 'b', 'c', 'a', 'b']
+>>> a.index('a', 1, 4)
+3
+>>> a.count('b')
+2
+>>> a.count('d')
+0
 ```
 
 
