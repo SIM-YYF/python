@@ -67,3 +67,35 @@ info['id'] = 100
 
 
 
+### &lt;1&gt;len\(\) {#len}
+
+测量字典中，键值对的个数
+
+
+
+### &lt;2&gt;keys {#keys}
+
+返回一个包含字典所有KEY的列表
+
+
+
+### &lt;3&gt;values {#values}
+
+返回一个包含字典所有value的列表
+
+
+
+### &lt;4&gt;items {#items}
+
+返回一个包含所有（键，值）元祖的列表
+
+
+
+### &lt;5&gt;has\_key {#haskey}
+
+dict.has\_key\(key\)如果key在字典中，返回True，否则返回False
+
+
+
+
+
