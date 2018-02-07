@@ -141,7 +141,7 @@ Out[21]: ['yuan', 'wen', 'fei']
 In [22]: name.split(' ',1) # 以空格(' ')进行分隔，且最大分隔次数1
 Out[22]: ['yuan', 'wen fei']
 
-In [23]: name.split('',1)
+In [23]: name.split('',1) # 字符串中未找到要分隔的字符，抛出异常
 ---------------------------------------------------------------------------
 ValueError                                Traceback (most recent call last)
 <ipython-input-23-20ac7dc6cace> in <module>()
