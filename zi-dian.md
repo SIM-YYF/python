@@ -160,6 +160,14 @@ Out[165]: 10
 ```
 Out[163]: info={'age': 10, 'sex': 1}
 
+In [166]: info.pop('name') # 移除的key在字典中不存在
+---------------------------------------------------------------------------
+KeyError                                  Traceback (most recent call last)
+<ipython-input-166-e15d6171392a> in <module>()
+----> 1 info.pop('name')
+
+KeyError: 'name'
+
 In [167]: info.pop('age')
 Out[167]: 10
 
@@ -167,7 +175,6 @@ In [168]: info
 Out[168]: {'sex': 1}
 
 In [169]:
-
 ```
 
 popitem\(\)
