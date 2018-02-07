@@ -127,8 +127,6 @@ python中查找的常用方法为：
 
 > in的方法只要会用了，那么not in也是同样的用法，只不过not in判断的是不存在
 
-
-
 #### index, count {#index-count}
 
 index和count与字符串中的用法相同
@@ -142,6 +140,10 @@ index和count与字符串中的用法相同
 >>> a.count('d')
 0
 ```
+
+#### &lt;4&gt;删除元素\("删"del, pop, remove\)
+
+
 
 
 
