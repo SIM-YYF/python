@@ -235,5 +235,19 @@ Out[39]: 'hello world python       '
 In [40]:
 ```
 
+#### &lt;13&gt;rjust {#rjust}
+
+返回一个原字符串右对齐,并使用空格填充至长度 width 的新字符串
+
+```
+In [36]: name='hello world python'
+
+
+In [40]: name.rjust(25)
+Out[40]: '       hello world python'
+
+In [41]:
+```
+
 
 
