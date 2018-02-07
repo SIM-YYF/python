@@ -82,9 +82,9 @@ continue的作用：用来结束本次循环，紧接着执行下一次的循环
 
 ### 注意点
 
-* break/continue只能用在循环中，除此以外不能单独使用
+* **break/continue只能用在循环中，除此以外不能单独使用**
 
-* break/continue在嵌套循环中，只对最近的一层循环起作用
+* **break/continue在嵌套循环中，只对最近的一层循环起作用**
 
 
 
