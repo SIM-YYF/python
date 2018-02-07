@@ -4,6 +4,7 @@
 * [First Chapter](chapter1.md)
 * [基础常识](chang-shi.md)
   * [格式化输出](chang-shi/ge-shi-hua-shu-chu.md)
+  * [输入](chang-shi/shu-ru.md)
 * [列表](lie-biao.md)
 * [字典](zi-dian.md)
 * [集合](ji-he.md)
