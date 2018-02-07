@@ -32,5 +32,4 @@
 * [web服务器](webfu-wu-qi.md)
 * [MQTT](mqtt.md)
 * [开发技巧](kai-fa-ji-qiao.md)
-* 常识
 
