@@ -46,9 +46,12 @@ stus = [
     {"name":"wangwu", "age":17}
 ]
 
->>> stus.sort(key = lambda x:x['age']) # 通过指定key，按照age进行排序
+>>> stus.sort(reverse=False, key = lambda x:x['age']) # 通过指定key，按照age进行降序排序
 >>> stus
 [{'age': 19, 'name': 'lisi'}, {'age': 17, 'name': 'wangwu'}, {'age': 18, 'name': 'zhangsan'}]
+
+
+
 ```
 
 
