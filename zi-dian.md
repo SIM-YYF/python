@@ -53,12 +53,14 @@ info['id'] = 100
 
 * del
 * clear\(\)
+* pop\(key\)
 
 ```
     info = {'name':'班长', 'sex':'f', 'address':'地球亚洲中国北京'}
     del info['name'] # 删除指定元素
     del info # 删除整个字典
     info.clear() # 清空整个字典
+    info.pop('name') # 根据key移除元素
 ```
 
 ### &lt;4&gt;len\(\) {#len}
@@ -137,11 +139,24 @@ info = {'name':'班长', 'sex':'f', 'address':'地球亚洲中国北京'}
 info.clear() # 清空整个字典
 ```
 
-&lt;9&gt;get\(key\)
+### &lt;10&gt;get\(key\)
 
 根据key，获取对应的value.如果字典中不存在key，返回None
 
-pop\(\)
+```
+In [163]: info
+Out[163]: {'age': 10, 'sex': 1}
+
+In [164]: info.get('name')
+
+In [165]: info.get('age')
+Out[165]: 10
+
+```
+
+&lt;11&gt;pop\(key\)
+
+
 
 popitem\(\)
 
