@@ -37,6 +37,8 @@ print(namesList[2])
 
 #### 列表常见操作
 
+##### &lt;1&gt;添加元素\(append, extend, insert\)
+
 
 
 
