@@ -274,5 +274,11 @@ In [45]: name.rstrip()
 Out[45]: 'hello world python'
 ```
 
+#### &lt;17&gt;strip {#strip}
 
+删除mystr字符串两端的空白字符
+
+```
+
+```
 
