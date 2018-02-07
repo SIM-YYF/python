@@ -61,11 +61,9 @@ info['id'] = 100
     info.clear() # 清空整个字典
 ```
 
-## 
 
-## 字典相关的函数
 
-### &lt;1&gt;len\(\) {#len}
+### &lt;4&gt;len\(\) {#len}
 
 测量字典中，键值对的个数
 
@@ -78,7 +76,7 @@ Out[134]: 3
 In [135]:
 ```
 
-### &lt;2&gt;keys {#keys}
+### &lt;5&gt;keys {#keys}
 
 返回一个包含字典所有KEY的列表
 
@@ -91,7 +89,7 @@ Out[136]: dict_keys(['name', 'age', 'sex'])
 In [137]:
 ```
 
-### &lt;3&gt;values {#values}
+### &lt;6&gt;values {#values}
 
 返回一个包含字典所有value的列表
 
@@ -104,7 +102,7 @@ Out[137]: dict_values(['ywf', 10, 1])
 In [138]:
 ```
 
-### &lt;4&gt;items {#items}
+### &lt;7&gt;items {#items}
 
 返回一个包含所有（键，值）元组的列表
 
@@ -116,7 +114,7 @@ Out[138]: dict_items([('name', 'ywf'), ('age', 10), ('sex', 1)])
 In [139]:
 ```
 
-### &lt;5&gt; in 判断是否包含key {#haskey}
+### &lt;8&gt; in 判断是否包含key {#haskey}
 
 使用 in 判断是否包含key。
 
@@ -132,5 +130,19 @@ In [150]: 'addr' in info.keys()
 Out[150]: False
 ```
 
+clear\(\)      
 
+get\(\)       
+
+ pop\(\)        
+
+popitem\(\)
+
+update\(\)
+
+copy\(\)     
+
+fromkeys\(\)  
+
+setdefault\(\)
 
