@@ -366,7 +366,7 @@ In [67]:
 
 ### &lt;25&gt;isalnum {#isalnum}
 
-如果 mystr 所有字符都是字母或数字则返回 True,否则返回 False
+如果 mystr 所有字符都是字母或数字或（字母和数子组合）则返回 True,否则返回 False
 
 ```
 In [68]: name='123456'
