@@ -118,7 +118,7 @@ In [139]:
 
 ### &lt;5&gt;in 判断是否包含key {#haskey}
 
-使用in 判断是否包含key。
+使用 in 判断是否包含key。
 
 如：
 
