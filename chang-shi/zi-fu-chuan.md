@@ -156,7 +156,11 @@ In [24]:
 
 字符串的第一个字符大写
 
-
+```
+In [20]: name='yuan wen fei'
+In [25]: name.capitalize()
+Out[25]: 'Yuan wen fei'
+```
 
 
 
