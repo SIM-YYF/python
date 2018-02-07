@@ -316,5 +316,13 @@ Out[53]: ('hello world ', 'python', '3.6 ')
 In [54]:
 ```
 
+### &lt;21&gt;rpartition {#rpartition}
+
+类似于 partition\(\)函数,不过是从右边开始.
+
+```
+mystr.rpartition(str)
+```
+
 
 
