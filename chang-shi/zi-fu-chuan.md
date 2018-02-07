@@ -122,5 +122,11 @@ Out[15]: 1
 
 把 mystr 中的 str1 替换成 str2,如果 count 指定，则替换不超过 count 次.
 
+```
+In [10]: name='hellow fly'
+In [16]: name.replace('fly','ywf', name.count('fly'))
+Out[16]: 'hellow ywf'
+```
+
 
 
