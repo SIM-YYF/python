@@ -110,5 +110,14 @@ In [14]:
 
 返回 str在字符串start和end之间出现的次数
 
+```
+In [10]: name='hellow fly'
+In [14]: name.count('ywf',0, len(name))
+Out[14]: 0
+In [15]: name.count('fly',0, len(name))
+Out[15]: 1
+
+```
+
 
 
