@@ -121,7 +121,13 @@ In [139]:
 dict.has\_key\(key\)如果key在字典中，返回True，否则返回False
 
 ```
+In [133]: info={'name':'ywf', 'age':10,'sex':1}
 
+In [149]: 'name' in info.keys()
+Out[149]: True
+
+In [150]: 'addr' in info.keys()
+Out[150]: False
 ```
 
 
