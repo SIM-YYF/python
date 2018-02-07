@@ -43,7 +43,7 @@ print(namesList[2])
 
 通过append可以向列表添加元素.
 
-**注意：只能在列表的最后面追击元素**
+**注意：添加的元素，作为最后一个元素添加列表中**
 
 ```
 In [126]: names=['xiaowang', 'mingming','tom']
