@@ -128,14 +128,18 @@ In [150]: 'addr' in info.keys()
 Out[150]: False
 ```
 
-### &lt;9&gt;clear\(\)清空整个字典
+### &lt;9&gt;clear\(\)
+
+清空整个字典
 
 ```
 info = {'name':'班长', 'sex':'f', 'address':'地球亚洲中国北京'}
 info.clear() # 清空整个字典
 ```
 
-get\(\)
+&lt;9&gt;get\(key\)
+
+根据key，获取对应的value.如果字典中不存在key，返回None
 
 pop\(\)
 
