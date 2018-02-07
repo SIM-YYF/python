@@ -58,6 +58,7 @@ info['id'] = 100
     info = {'name':'班长', 'sex':'f', 'address':'地球亚洲中国北京'}
     del info['name'] # 删除指定元素
     del info # 删除整个字典
+    info.clear() # 清空整个字典
 ```
 
 
