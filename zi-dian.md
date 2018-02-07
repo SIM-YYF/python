@@ -177,7 +177,20 @@ Out[168]: {'sex': 1}
 In [169]:
 ```
 
-popitem\(\)
+### &lt;12&gt;popitem\(\)
+
+从字典中移除包含（key:value）的一组元组
+
+```
+Out[163]: info={'sex': 1}
+
+
+In [171]: info.popitem()
+Out[171]: ('sex', 1)
+
+In [172]: info
+Out[172]: {}
+```
 
 update\(\)
 
