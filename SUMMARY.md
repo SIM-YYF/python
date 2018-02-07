@@ -12,6 +12,7 @@
   * [切片](chang-shi/qie-pian.md)
 * [列表](lie-biao.md)
 * [字典](zi-dian.md)
+* [可变类型与不可变类型](ke-bian-lei-xing-yu-bu-ke-bian-lei-xing.md)
 * [集合](ji-he.md)
 * [函数](han-shu.md)
 * [OOP](oop.md)
@@ -32,5 +33,5 @@
   * redis
 * [web服务器](webfu-wu-qi.md)
 * [MQTT](mqtt.md)
-* [开发技巧](kai-fa-ji-qiao.md)
+* 可变类型与不可变类型
 
