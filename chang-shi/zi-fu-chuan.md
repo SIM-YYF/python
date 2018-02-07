@@ -162,5 +162,11 @@ In [25]: name.capitalize()
 Out[25]: 'Yuan wen fei'
 ```
 
+#### &lt;7&gt;title {#title}
 
+把字符串的每个单词首字母大写
+
+```
+
+```
 
