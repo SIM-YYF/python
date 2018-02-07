@@ -57,3 +57,20 @@ else:
 
 
 
+### break和continue
+
+break的for循环：
+
+```
+  name = 'dongGe'
+  for x in name:
+      print('----')
+      if x == 'g': 
+          break
+      print(x)
+```
+
+
+
+
+
