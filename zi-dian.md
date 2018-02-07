@@ -116,7 +116,13 @@ Out[138]: dict_items([('name', 'ywf'), ('age', 10), ('sex', 1)])
 In [139]:
 ```
 
-### &lt;5&gt;has\_key {#haskey}
+### &lt;5&gt;in 判断是否包含key {#haskey}
 
 dict.has\_key\(key\)如果key在字典中，返回True，否则返回False
+
+```
+
+```
+
+
 
