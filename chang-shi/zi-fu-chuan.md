@@ -279,6 +279,13 @@ Out[45]: 'hello world python'
 删除mystr字符串两端的空白字符
 
 ```
+In [46]: name='   hello world python   '
 
+In [47]: name.strip()
+Out[47]: 'hello world python'
+
+In [48]:
 ```
+
+
 
