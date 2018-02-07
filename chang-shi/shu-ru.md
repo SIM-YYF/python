@@ -33,5 +33,7 @@ input('请输入表达式：')
 
 # python3中的输入
 
-没有raw\_input\(\)函数，只有input\(\)，并且 python3中的input与python2中的raw\_input\(\)功能一样
+没有raw\_input\(\)函数，只有input\(\)，并且 python3中的input与python2中的raw\_input\(\)功能一样。
+
+
 
