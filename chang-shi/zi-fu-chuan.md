@@ -287,5 +287,13 @@ Out[47]: 'hello world python'
 In [48]:
 ```
 
+### &lt;18&gt;rfind {#rfind}
+
+类似于 find\(\)函数，不过是从右边开始查找.
+
+```
+mystr.rfind(str, start=0,end=len(mystr) )
+```
+
 
 
