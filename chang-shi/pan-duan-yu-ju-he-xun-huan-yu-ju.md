@@ -40,5 +40,11 @@ else:
         循环不满足条件时执行的代码
 ```
 
+```
+    name = 'dongGe'
+    for x in name:
+        print(x)
+```
+
 
 
