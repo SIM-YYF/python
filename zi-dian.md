@@ -108,6 +108,14 @@ In [138]:
 
 返回一个包含所有（键，值）元组的列表
 
+```
+In [133]: info={'name':'ywf', 'age':10,'sex':1}
+In [138]: info.items()
+Out[138]: dict_items([('name', 'ywf'), ('age', 10), ('sex', 1)])
+
+In [139]:
+```
+
 ### &lt;5&gt;has\_key {#haskey}
 
 dict.has\_key\(key\)如果key在字典中，返回True，否则返回False
