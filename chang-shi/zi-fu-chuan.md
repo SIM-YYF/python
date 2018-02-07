@@ -152,6 +152,18 @@ ValueError: empty separator
 In [24]:
 ```
 
+#### 注意： {#capitalize}
+
+如果字符串中包含 '  ' 或者  \t 或者  \n 特殊字符时：可以直接使用myStr.split\(\)进行分隔，生产一个新的列表返回。
+
+```
+In [116]: name='123 456\t 789\n abc\t\n fly\t\n'
+In [117]: name.split() # split()方法中不需要传递任何特殊字符。
+Out[117]: ['123', '456', '789', 'abc', 'fly']
+
+In [118]:
+```
+
 #### &lt;6&gt;capitalize {#capitalize}
 
 字符串的第一个字符大写
