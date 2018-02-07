@@ -53,7 +53,7 @@ info['id'] = 100
 
 * del
 * clear\(\)
-* pop\(key\)
+* pop\(key\) 根据key移除元素，移除的key不存在，抛出异常
 
 ```
     info = {'name':'班长', 'sex':'f', 'address':'地球亚洲中国北京'}
