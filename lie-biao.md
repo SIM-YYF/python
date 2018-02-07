@@ -91,8 +91,7 @@ insert\(index, object\) 在指定位置index前插入元素object
 
 ```
 In [126]: names=['xiaowang', 'mingming','tom']
-In [130]: names[0]='xiaowang2'
-
+In [130]: names[0]='xiaowang2' # 修改第一个元素
 In [131]: names
 Out[131]: ['xiaowang2', 'mingming', 'tom', 'fly']
 
