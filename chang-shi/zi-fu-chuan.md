@@ -303,5 +303,13 @@ mystr.rfind(str, start=0,end=len(mystr) )
 mystr.rindex( str, start=0,end=len(mystr))
 ```
 
+### &lt;20&gt;partition {#partition}
+
+把mystr以str分割成三部分,str前，str和str后
+
+```
+mystr.partition(str)
+```
+
 
 
