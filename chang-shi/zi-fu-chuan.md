@@ -172,5 +172,15 @@ In [26]: name.title()
 Out[26]: 'Yuan Wen Fei'
 ```
 
+#### &lt;8&gt;startswith {#startswith}
+
+检查字符串是否是以 obj 开头, 是则返回 True，否则返回 False
+
+```
+In [20]: name='yuan wen fei'
+In [28]: name.startswith('yuan')
+Out[28]: True
+```
+
 
 
