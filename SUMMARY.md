@@ -2,6 +2,8 @@
 
 * [Introduction](README.md)
 * [First Chapter](chapter1.md)
+* [基础常识](chang-shi.md)
+  * [格式化输出1](chang-shi/ge-shi-hua-shu-chu.md)
 * [格式化输出](ge-shi-hua-shu-chu.md)
 * [列表](lie-biao.md)
 * [字典](zi-dian.md)
@@ -26,5 +28,5 @@
 * [web服务器](webfu-wu-qi.md)
 * [MQTT](mqtt.md)
 * [开发技巧](kai-fa-ji-qiao.md)
-* [性能优化](xing-neng-you-hua.md)
+* 常识
 
