@@ -135,10 +135,10 @@ Out[16]: 'hellow ywf'
 ```
 In [20]: name='yuan wen fei'
 
-In [21]: name.split(' ')
+In [21]: name.split(' ') # 以空格(' ')进行分隔
 Out[21]: ['yuan', 'wen', 'fei']
 
-In [22]: name.split(' ',1)
+In [22]: name.split(' ',1) # 以空格(' ')进行分隔，且最大分隔次数1
 Out[22]: ['yuan', 'wen fei']
 
 In [23]: name.split('',1)
