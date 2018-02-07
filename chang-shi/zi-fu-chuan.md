@@ -198,7 +198,7 @@ Out[30]: False
 
 #### &lt;10&gt;lower {#lower}
 
-将 字符串中所有大写字符转换为小写
+将 字符串 中所有大写字符转换为小写
 
 ```
 In [32]: name='yuan WEN fei'
@@ -208,6 +208,10 @@ Out[33]: 'yuan wen fei'
 
 In [34]:
 ```
+
+#### &lt;11&gt;upper {#upper}
+
+将 字符串 中所有小写字符转换为大写
 
 
 
