@@ -27,5 +27,4 @@
 * [MQTT](mqtt.md)
 * [开发技巧](kai-fa-ji-qiao.md)
 * [性能优化](xing-neng-you-hua.md)
-* 格式化输出
 
