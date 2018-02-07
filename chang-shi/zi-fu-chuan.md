@@ -394,5 +394,7 @@ Out[75]: False
 
 如果 mystr 中只包含空格，则返回 True，否则返回 False.
 
+```
 
+```
 
