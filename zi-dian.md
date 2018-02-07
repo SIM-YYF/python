@@ -84,10 +84,14 @@ In [192]:
 
 #### &lt;4&gt; 带下标索引的遍历 {#遍历字典的项（元素）}
 
-
+enumerate\(\):函数可以生产带有下标的索引
 
 ```
-
+In [193]: for i,item in enumerate(info.items()):
+     ...:     print(i,item)
+     ...:
+0 ('name', 'ywf')
+1 ('age', 10)
 ```
 
 ## 字典的常见操作
