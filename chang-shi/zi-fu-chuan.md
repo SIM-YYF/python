@@ -196,5 +196,9 @@ In [30]: name.endswith('fei2')
 Out[30]: False
 ```
 
+#### &lt;10&gt;lower {#lower}
+
+将 字符串中所有大写字符转换为小写
+
 
 
