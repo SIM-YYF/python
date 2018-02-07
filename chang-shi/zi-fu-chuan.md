@@ -167,6 +167,10 @@ Out[25]: 'Yuan wen fei'
 把字符串的每个单词首字母大写
 
 ```
-
+In [20]: name='yuan wen fei'
+In [26]: name.title()
+Out[26]: 'Yuan Wen Fei'
 ```
+
+
 
