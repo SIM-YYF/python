@@ -263,5 +263,16 @@ Out[41]: '    hello world python   '
 In [42]:
 ```
 
+#### &lt;16&gt;rstrip {#rstrip}
+
+删除 mystr 字符串末尾的空白字符
+
+```
+In [44]: name='hello world python    '
+
+In [45]: name.rstrip()
+Out[45]: 'hello world python'
+```
+
 
 
