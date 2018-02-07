@@ -128,5 +128,7 @@ In [16]: name.replace('fly','ywf', name.count('fly'))
 Out[16]: 'hellow ywf'
 ```
 
+#### &lt;5&gt;split {#split}
+
 
 
