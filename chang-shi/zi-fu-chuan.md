@@ -351,7 +351,18 @@ Out[61]: False
 如果 mystr 只包含数字则返回 True 否则返回 False
 
 ```
-mystr.isdigit() 
+
+In [63]: name='123456'
+
+In [64]: name.isdigit()
+Out[64]: True
+
+In [65]: name='123456y'
+
+In [66]: name.isdigit()
+Out[66]: False
+
+In [67]:
 ```
 
 
