@@ -55,11 +55,9 @@ else:
         print("没有数据")
 ```
 
-
-
 ### break和continue
 
-break的for循环：
+break的作用：用来结束整个循环。如：
 
 ```
   name = 'dongGe'
@@ -69,8 +67,6 @@ break的for循环：
           break
       print(x)
 ```
-
-
 
 
 
