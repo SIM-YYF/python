@@ -406,5 +406,16 @@ In [78]: name.isspace()
 Out[78]: True
 ```
 
+### &lt;27&gt;join {#join}
+
+mystr 中每个字符后面插入str,构造出一个新的字符串
+
+```
+In [83]: name='123abcDEF'
+
+In [86]: '-'.join(name)
+Out[86]: '1-2-3-a-b-c-D-E-F'
+```
+
 
 
