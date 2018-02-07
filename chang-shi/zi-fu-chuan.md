@@ -213,5 +213,15 @@ In [34]:
 
 将 字符串 中所有小写字符转换为大写
 
+```
+
+In [32]: name='yuan WEN fei'
+
+In [34]: name.upper()
+Out[34]: 'YUAN WEN FEI'
+
+In [35]:
+```
+
 
 
