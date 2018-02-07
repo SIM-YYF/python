@@ -23,6 +23,8 @@ reverse方法：是将list逆置。
 
 ## 复杂列表排序
 
+按照每个元素中name进行排序：
+
 ```
 stus = [
     {"name":"zhangsan", "age":18}, 
