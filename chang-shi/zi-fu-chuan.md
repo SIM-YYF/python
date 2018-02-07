@@ -214,13 +214,25 @@ In [34]:
 将 字符串 中所有小写字符转换为大写
 
 ```
-
 In [32]: name='yuan WEN fei'
 
 In [34]: name.upper()
 Out[34]: 'YUAN WEN FEI'
 
 In [35]:
+```
+
+#### &lt;12&gt;ljust {#ljust}
+
+返回一个原字符串左对齐,并使用空格填充至长度 width 的新字符串
+
+```
+In [36]: name='hello world python'
+
+In [39]: name.ljust(25)
+Out[39]: 'hello world python       '
+
+In [40]:
 ```
 
 
