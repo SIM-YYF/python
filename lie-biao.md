@@ -1,6 +1,6 @@
 # 列表介绍
 
-#### 列表格式：
+### 列表格式：
 
 ```
 namesList = ['xiaoWang','xiaoZhang','xiaoHua']
@@ -9,7 +9,7 @@ namesList2 = ['xiaoWang','xiaoZhang',12]
 
 注意：**列表中的元素可以是不同类型的**
 
-#### 列表元素输入：
+### 列表元素输入：
 
 ```
 namesList = ['xiaoWang','xiaoZhang','xiaoHua']
@@ -18,7 +18,7 @@ print(namesList[1])
 print(namesList[2])
 ```
 
-#### 列表的循环遍历
+### 列表的循环遍历
 
 ```
     namesList = ['xiaoWang','xiaoZhang','xiaoHua']
@@ -35,11 +35,13 @@ print(namesList[2])
         i+=1
 ```
 
-#### 列表常见操作
+### 列表常见操作
 
-##### &lt;1&gt;添加元素\(append, extend, insert\)
+#### &lt;1&gt;添加元素\(append, extend, insert\)
 
+#### append {#append}
 
+通过append可以向列表添加元素
 
 
 
