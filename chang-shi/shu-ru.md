@@ -6,7 +6,7 @@
 
 ```
 password = raw_input("请输入内容:")
-print ("您输入的内容是：%s"password)
+print ("您输入的内容是：%s"%password)
 ```
 
 
