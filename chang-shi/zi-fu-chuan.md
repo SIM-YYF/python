@@ -77,7 +77,6 @@
 作用：检测 str 是否包含在 mystr中，如果是返回开始的索引值，否则返回-1
 
 ```
-
 In [10]: name='hellow fly'
 
 In [11]: name.find('fly',0, len(name))
@@ -86,6 +85,8 @@ Out[11]: 7
 In [12]: name.find('ywf',0, len(name))
 Out[12]: -1
 ```
+
+#### &lt;2&gt;index {#index}
 
 
 
