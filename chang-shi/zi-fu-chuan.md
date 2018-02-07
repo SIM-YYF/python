@@ -42,8 +42,8 @@
 如：
 
 ```
-     name = 'abcdef'
-     print(name[0:3]) # 取 下标0~2 的字符
+>>> name = 'abcdef'
+>>> print(name[0:3]) # 取 下标0~2 的字符
 ```
 
 ```
