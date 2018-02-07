@@ -335,5 +335,16 @@ In [60]: myStr.splitlines()
 Out[60]: ['hello ', ' world ', ' python3.6']
 ```
 
+### &lt;23&gt;isalpha {#isalpha}
+
+如果 mystr 所有字符都是字母 则返回 True,否则返回 False
+
+```
+In [59]: myStr='hello \n world \n python3.6'
+
+In [61]: myStr.isalpha()
+Out[61]: False
+```
+
 
 
