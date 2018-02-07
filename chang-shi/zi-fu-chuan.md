@@ -201,6 +201,13 @@ Out[30]: False
 将 字符串中所有大写字符转换为小写
 
 ```
+In [32]: name='yuan WEN fei'
 
+In [33]: name.lower()
+Out[33]: 'yuan wen fei'
+
+In [34]:
 ```
+
+
 
