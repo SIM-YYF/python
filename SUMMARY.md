@@ -8,6 +8,7 @@
   * [运算符](chang-shi/yun-suan-fu.md)
   * [数据类型转换](chang-shi/shu-ju-lei-xing-zhuan-huan.md)
   * [判断语句和循环语句](chang-shi/pan-duan-yu-ju-he-xun-huan-yu-ju.md)
+  * [字符串](chang-shi/zi-fu-chuan.md)
 * [列表](lie-biao.md)
 * [字典](zi-dian.md)
 * [集合](ji-he.md)
