@@ -88,5 +88,5 @@ Out[12]: -1
 
 #### &lt;2&gt;index {#index}
 
-
+跟find\(\)方法一样，只不过如果str不在 mystr中会报一个异常.
 
