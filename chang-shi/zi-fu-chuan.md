@@ -390,5 +390,9 @@ In [75]: name.isalnum()
 Out[75]: False
 ```
 
+### &lt;26&gt;isspace {#isspace}
+
+如果 mystr 中只包含空格，则返回 True，否则返回 False.
+
 
 
