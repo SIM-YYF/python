@@ -61,8 +61,6 @@ info['id'] = 100
     info.clear() # 清空整个字典
 ```
 
-
-
 ### &lt;4&gt;len\(\) {#len}
 
 测量字典中，键值对的个数
@@ -130,19 +128,21 @@ In [150]: 'addr' in info.keys()
 Out[150]: False
 ```
 
-clear\(\)      
+### &lt;9&gt;clear\(\)清空整个字典
 
-get\(\)       
 
- pop\(\)        
+
+get\(\)
+
+pop\(\)
 
 popitem\(\)
 
 update\(\)
 
-copy\(\)     
+copy\(\)
 
-fromkeys\(\)  
+fromkeys\(\)
 
 setdefault\(\)
 
