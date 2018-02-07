@@ -74,5 +74,16 @@ In [130]:
 [1, 2, [3, 4], 3, 4]
 ```
 
+#### insert {#insert}
+
+insert\(index, object\) 在指定位置index前插入元素object
+
+```
+>>> a = [0, 1, 2]
+>>> a.insert(1, 3)
+>>> a
+[0, 3, 1, 2]
+```
+
 
 
