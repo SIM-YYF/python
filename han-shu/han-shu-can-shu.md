@@ -67,11 +67,20 @@ SyntaxError: non-default argument follows default argument
 
 **而加\*\*的变量kwargs会存放命名参数，即形如key=value的参数， kwargs为字典**。
 
+如：
 
-
-
-
-
+```
+>>> def fun(a, b, *args, **kwargs):
+...     """可变参数演示示例"""
+...     print "a =", a
+...     print "b =", b
+...     print "args =", args
+...     print "kwargs: "
+...     for key, value in kwargs.items():
+...         print key, "=", value
+...
+>>> fun(1, 2, 3, 4, 5, m=6, n=7, p=8)  # 注意传递的参数对应
+```
 
 
 
