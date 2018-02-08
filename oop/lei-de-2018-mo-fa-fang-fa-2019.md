@@ -81,7 +81,7 @@ class Animal(object):
     def __init__(self, name):
         print('__init__方法被调用')
         self.__name = name
-        
+
     # 当对象被删除时，会自动被调用
     def __del__(self):
         print("__del__方法被调用")
@@ -89,10 +89,8 @@ class Animal(object):
 
 # 创建对象
 dog = Animal("哈皮狗")
-
 # 删除对象
 del dog
-
 ```
 
 
