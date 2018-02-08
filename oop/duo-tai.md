@@ -25,9 +25,32 @@ java中的多态：
     可扩充性：多态对代码具有可扩充性。增加新的子类不影响已存在类的多态性、继承性，以及其他特性的运行和操作
 ```
 
+## python中的多态\(鸭子类型\)
 
+```
+class F1(object):
+    def show(self):
+        print 'F1.show'
 
-## python中的多态
+class S1(F1):
+
+    def show(self):
+        print 'S1.show'
+
+class S2(F1):
+
+    def show(self):
+        print 'S2.show'
+
+def Func(obj):
+    print obj.show()
+
+s1_obj = S1()
+Func(s1_obj) 
+
+s2_obj = S2()
+Func(s2_obj)
+```
 
 
 
