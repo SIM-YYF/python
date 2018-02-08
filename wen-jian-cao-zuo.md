@@ -29,6 +29,12 @@ f = open('test.txt', 'w')
 
 ## &lt;2&gt;关闭文件 {#关闭文件}
 
-  
+```
+# 新建一个文件，文件名为:test.txt
+    f = open('test.txt', 'w')
+    # 关闭这个文件
+    f.close()
+```
+
 
 
