@@ -4,20 +4,18 @@
 
 > 当Python检测到一个错误时，解释器就无法继续执行了，反而出现了一些错误的提示，这就是所谓的"异常"
 
-
-
 ### 异常捕获
 
 异常捕获格式：
 
 ```
 try:
+    pass # 执行代码块
+except expression as identifier: # 捕获到异常。expression：异常类型   identifier：异常信息
     pass
-except expression as identifier:
+else: # 没有异常信息
     pass
-else:
-    pass
-finally:
+finally: # 是否有异常，最终都会执行finally语句
     pass
 ```
 
