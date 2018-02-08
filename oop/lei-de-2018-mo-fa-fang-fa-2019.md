@@ -107,3 +107,19 @@ del dog
 
 
 
+### `__new__的定义`
+
+```
+class A(object):
+    def __init__(self):
+        print("这是 init 方法")
+
+    def __new__(cls):
+        print("这是 new 方法")
+        return object.__new__(cls)
+
+A()
+```
+
+
+
