@@ -49,7 +49,11 @@ result = 3
 ]
 >>> stus.sort(key = lambda x:x['name'])
 >>> stus
-[{'age': 19, 'name': 'lisi'}, {'age': 17, 'name': 'wangwu'}, {'age': 18, 'name': 'zhangsan'}]
+[
+{'age': 19, 'name': 'lisi'}, 
+{'age': 17, 'name': 'wangwu'}, 
+{'age': 18, 'name': 'zhangsan'}
+]
 ```
 
 
