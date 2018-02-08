@@ -82,7 +82,7 @@ SyntaxError: non-default argument follows default argument
 >>> fun(1, 2, 3, 4, 5, m=6, n=7, p=8)  # 注意传递的参数对应
 ```
 
-#### 参数为元组和字典进行拆包
+#### 对参数为元组和字典进行拆包
 
 ```
 >>> def fun(a, b, *args, **kwargs):
