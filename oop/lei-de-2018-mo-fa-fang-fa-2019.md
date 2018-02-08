@@ -37,5 +37,7 @@ print('车的颜色为:%s'%BMW.color)
 print('车轮胎数量为:%d'%BMW.wheelNum)
 ```
 
+# &lt;2&gt; `__str__()`方法
+
 
 
