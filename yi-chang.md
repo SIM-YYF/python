@@ -19,7 +19,7 @@ finally: # 是否有异常，最终都会执行finally语句
     pass
 ```
 
-捕获多个异常
+### 捕获多个异常
 
 ```
 try:
@@ -33,9 +33,7 @@ finally: # 是否有异常，最终都会执行finally语句
    print('finally')
 ```
 
-全局异常捕获
-
-
+### 全局异常捕获
 
 ```
 try:
