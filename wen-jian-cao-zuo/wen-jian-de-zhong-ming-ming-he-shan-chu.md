@@ -8,12 +8,9 @@ os模块中的rename\(\)可以完成对文件的重命名操作
 
 rename\(需要修改的文件名, 新的文件名\)
 
-
-
 ```
-
     import os
-    os.rename("毕业论文.txt", "毕业论文-最终版.txt")
+    os.rename("aa.txt", "aa-update.txt")
 ```
 
 
