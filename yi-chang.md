@@ -49,9 +49,21 @@ finally: # 是否有异常，最终都会执行finally语句
 
 ### try嵌套
 
+```
+try:
+     # 执行代码块     
+   try:
+      num = 100 / 0
+   finally:
+       pass
 
-
-
+except Exception as identifier: # 捕获到异常。expression：异常类型   identifier：异常信息
+    print('异常信息:%s'%identifier)
+else: # 没有异常信息
+     print('未发现异常信息')
+finally: # 是否有异常，最终都会执行finally语句
+   print('finally')
+```
 
 总结：
 
