@@ -110,6 +110,10 @@ SyntaxError: non-default argument follows default argument
 参数为：可变类型
 
 ```
+>>> def selfAdd(a):
+...     """自增"""
+...     a += a   # 我们更改了函数体的这句话
+...
 >>> a_list = [1, 2]
 >>> a_list
 [1, 2]
