@@ -84,8 +84,9 @@ py\_modules需指明所需包含的py文件
 from distutils.core import setup
 # py_modules:指定模块名
 setup(name="modules", version="1.0", description="Test module", author="test", py_modules=['Test')
-
 ```
+
+#### 构建模块
 
 
 
