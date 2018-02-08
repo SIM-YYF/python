@@ -19,3 +19,19 @@ n! = n × (n-1)!
 
 
 
+```
+In [40]: def callNum(num):
+    ...:     if(num >=1):
+    ...:         return num * callNum(num - 1)
+    ...:     else:
+    ...:         return 1
+    ...:
+    ...:
+
+In [41]: ret = callNum(5)
+
+In [42]: print(ret)
+```
+
+
+
