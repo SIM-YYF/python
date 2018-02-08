@@ -9,7 +9,18 @@
 
 ## &lt;2&gt;带有多个返回值的函数 {#带有返回值的函数}
 
-
+```
+>>> def divid(a, b):
+...     shang = a//b
+...     yushu = a%b 
+...     return shang, yushu
+...
+>>> sh, yu = divid(5, 2)
+>>> sh
+5
+>>> yu
+1
+```
 
 
 
