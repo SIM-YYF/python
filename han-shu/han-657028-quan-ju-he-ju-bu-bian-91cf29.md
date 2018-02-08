@@ -39,7 +39,35 @@ test1()
 * 如果在函数中修改全局变量，那么就需要使用`global`进行声明，否则出错
 * 如果全局变量的名字和局部变量的名字相同，那么使用的是局部变量的，小技巧`强龙不压地头蛇`
 
-##  {#什么是局部变量}
+#### 可变类型的全局变量：
+
+```
+>>> a = 1
+>>> def f():
+...     a += 1
+...     print a
+...
+>>> f()
+Traceback (most recent call last):
+  File "<stdin>", line 1, in <module>
+  File "<stdin>", line 2, in f
+UnboundLocalError: local variable 'a' referenced before assignment
+>>>
+>>>
+>>> li = [1,]
+>>> def f2():
+...     li.append(1)
+...     print li
+...
+>>> f2()
+[1, 1]
+>>> li
+[1, 1]
+```
+
+
+
+
 
 ## &lt;2&gt;局部变量 {#什么是局部变量}
 
