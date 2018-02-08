@@ -61,5 +61,17 @@ SyntaxError: non-default argument follows default argument
        return [expression]
 ```
 
+#### 强调说明：
+
+**加了星号（\*）的变量args会存放所有未命名的变量参数，args为元组**；
+
+**而加\*\*的变量kwargs会存放命名参数，即形如key=value的参数， kwargs为字典**。
+
+
+
+
+
+
+
 
 
