@@ -48,5 +48,7 @@ printinfo( age=9,name="miki" )
 SyntaxError: non-default argument follows default argument
 ```
 
+## &lt;4&gt;不定长参数 {#2不定长参数}
+
 
 
