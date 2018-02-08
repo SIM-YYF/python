@@ -38,5 +38,11 @@
 from 模块名 import 函数名1,函数名2....
 ```
 
+例如，要导入模块fib的fibonacci函数，使用如下语句：
+
+```
+    from fib import fibonacci
+```
+
 
 
