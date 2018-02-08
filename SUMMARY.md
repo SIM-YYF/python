@@ -51,7 +51,7 @@
 * 算法
 * [设计模式](she-ji-mo-shi.md)
   * [工厂模式](she-ji-mo-shi/gong-chang-mo-shi.md)
-  * 单例模式
+  * [单例模式](she-ji-mo-shi/dan-li-mo-shi.md)
 * [数据库](shu-ju-ku.md)
   * [Mysql](shu-ju-ku/mysql.md)
   * PostgreSQL
