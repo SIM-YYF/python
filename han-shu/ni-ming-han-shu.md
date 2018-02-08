@@ -23,7 +23,21 @@ lambda [arg1 [,arg2,.....argn]]:expression
 
 **Lambda函数能接收任何数量的参数但只能返回一个表达式的值**
 
-
-
 ## 应用场景
+
+#### 匿名函数作为参数传递
+
+```
+>>> def fun(a, b, opt):
+...     print "a =", a
+...     print "b =", b
+...     print "result =", opt(a, b)
+...
+>>> fun(1, 2, lambda x,y:x+y)
+a = 1
+b = 2
+result = 3
+```
+
+
 
