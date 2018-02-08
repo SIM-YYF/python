@@ -123,3 +123,23 @@ setup(name="modules", version="1.0", description="Test module", author="test", p
 
 `from 模块名 import 模块名或者*`
 
+
+
+```
+ywfdeMBP:dist ywf$ tar -xvf modules-1.0.tar.gz  # 解压
+x modules-1.0/
+x modules-1.0/PKG-INFO
+x modules-1.0/Test.py
+x modules-1.0/setup.py
+ywfdeMBP:dist ywf$ cd modules-1.0 # 进入解压轴的目录
+ywfdeMBP:modules-1.0 ywf$ ls
+PKG-INFO        Test.py         setup.py
+
+
+
+
+
+```
+
+
+
