@@ -21,5 +21,20 @@
     print(result)
 ```
 
+## &lt;3&gt;测试模块 {#测试模块}
+
+```
+def add(a, b): # 模块中的函数
+    return a+b
+
+
+def main():
+    ret = add(10, 20)
+    print('a+b = %d'%ret)
+
+if __name__ == '__main__': # 测试入口函数。只有开发者进行测试时执行，发布之后，不会执行
+    main()
+```
+
 
 
