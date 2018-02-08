@@ -40,7 +40,41 @@ if __name__ == '__main__': # 测试入口函数。只有开发者进行测试时
 
 ## &lt;3&gt;导出指定模块中的元素 {#测试模块}
 
-可以通过\_\_all\_\_变量
+可以通过`__all__`变量，导出指定模块中的元素
+
+如：
+
+```
+#如果一个模块中有__all__变量，那么也就意味着这个变量中的元素，不会被from xxx import * 时导入
+__all__=['add', 'Person', 'test1']
+
+def add(a, b):
+    return a+b
+
+class Person(object):
+    def test(self):
+        pass
+def test1():
+    pass
+
+def test2():
+    pass
+
+def main():
+    ret = add(10, 20)
+    print('a+b = %d'%ret)
+
+if __name__ == '__main__':
+    main()
+```
+
+注意事项：
+
+如果使用from xxx import \* 导入模块中的所有元素时，此时\_\_all\_\_ 变量就会生效。
+
+如果 import Test 直接导入模块，此时\_\_all\_\_ 变量就不再生效
+
+
 
 ## &lt;3&gt;发布模块 {#测试模块}
 
