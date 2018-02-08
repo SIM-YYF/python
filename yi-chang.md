@@ -93,7 +93,21 @@ finally: # 是否有异常，最终都会执行finally语句
 
 ### 抛出自定义异常
 
+可以用raise语句来引发一个异常。异常/错误对象必须有一个名字，且它们应是Error或Exception类的子类
 
+  
+自定义异常类：
+
+定义的类需要继承Exception
+
+```
+class ShortInputException(Exception):
+    '''自定义的异常类'''
+    def __init__(self, length, atleast):
+        #super().__init__()
+        self.length = length
+        self.atleast = atleast
+```
 
 
 
