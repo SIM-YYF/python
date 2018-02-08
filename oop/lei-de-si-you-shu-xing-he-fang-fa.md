@@ -14,10 +14,11 @@ class Animal(object):
     def test(self):
         print(self.__name)
         print(self.color)
-
-
-
 ```
 
 
+
+注意事项：
+
+私有属性和方法，不可以通过对象来访问，否则会报错
 
