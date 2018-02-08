@@ -42,7 +42,7 @@ class S2(F1):
     def show(self):
         print 'S2.show'
 
-def Func(obj):
+def Func(obj): # 多态的实现
     print obj.show()
 
 s1_obj = S1()
