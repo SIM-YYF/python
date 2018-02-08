@@ -32,6 +32,7 @@
   * [批量重命名](wen-jian-cao-zuo/pi-liang-xiu-gai-wen-jian-ming.md)
 * [OOP](oop.md)
   * [类和对象](oop/ding-yi-lei.md)
+  * [类的‘魔法方法’](oop/lei-de-2018-mo-fa-fang-fa-2019.md)
 * 生成器
 * 迭代器
 * [装饰器](zhuang-shi-qi.md)
