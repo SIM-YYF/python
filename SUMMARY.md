@@ -33,7 +33,7 @@
 * [OOP](oop.md)
   * [类和对象](oop/ding-yi-lei.md)
   * [类的‘魔法方法’](oop/lei-de-2018-mo-fa-fang-fa-2019.md)
-  * [类的私有属性和方法](oop/lei-de-si-you-shu-xing-he-fang-fa.md)
+  * [类的私有实例属性和方法](oop/lei-de-si-you-shu-xing-he-fang-fa.md)
   * [单继承](oop/dan-ji-cheng.md)
   * [多继承](oop/duo-ji-cheng.md)
   * [重写父类方法与调用父类方法](oop/zhong-xie-fu-lei-fang-fa-yu-diao-yong-fu-lei-fang-fa.md)
