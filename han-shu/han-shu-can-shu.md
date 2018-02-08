@@ -97,7 +97,7 @@ SyntaxError: non-default argument follows default argument
 ```
 >>> def selfAdd(a):
 ...     """自增"""
-...     a = a + a   # 我们更改了函数体的这句话
+...     a += a   # 我们更改了函数体的这句话
 ...
 >>> a_int = 1
 >>> a_int
@@ -117,8 +117,6 @@ SyntaxError: non-default argument follows default argument
 >>> a_list
 [1, 2, 1, 2]
 ```
-
-
 
 
 
