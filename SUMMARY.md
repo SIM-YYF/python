@@ -37,4 +37,6 @@
   * redis
 * [web服务器](webfu-wu-qi.md)
 * 列表推导式
+* [python中特殊事项](pythonzhong-te-shu-shi-xiang.md)
+  * [a+=a和a=a+a的区别](pythonzhong-te-shu-shi-xiang/a+ahe-a-a-+-a-de-qu-bie.md)
 
