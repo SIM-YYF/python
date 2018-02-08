@@ -17,7 +17,6 @@ for name in file_names:
     old_file_name = folder_name+"/"+name
     new_file_name = folder_name+"/"+"[京东出品]-"+name
     os.rename(old_file_name, new_file_name)
-
 ```
 
 
