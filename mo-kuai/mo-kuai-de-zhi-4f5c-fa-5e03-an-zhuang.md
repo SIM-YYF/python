@@ -152,7 +152,15 @@ ywfdeMBP:modules-1.0 ywf$
 
 ```
 /Library/Frameworks/Python.framework/Versions/3.6/lib/python3.6/site-packages/modules-1.0-py3.6.egg-info
+```
 
+#### 3.模块的使用
+
+```
+ # from Test import * # 导入定义的模块
+import Test 
+result = Test.add(10, 10)
+print (result)
 ```
 
 
