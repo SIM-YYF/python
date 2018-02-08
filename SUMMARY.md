@@ -11,11 +11,13 @@
   * [字符串](chang-shi/zi-fu-chuan.md)
   * [切片](chang-shi/qie-pian.md)
 * [列表](lie-biao.md)
+* [列表推导式](lie-biao-tui-dao-shi.md)
 * [排序](pai-xu.md)
 * [字典](zi-dian.md)
 * [可变类型与不可变类型](ke-bian-lei-xing-yu-bu-ke-bian-lei-xing.md)
 * [集合](ji-he.md)
 * [函数](han-shu.md)
+  * [函数定义和调用](han-shu/han-shu-ding-yi-he-diao-yong.md)
 * [OOP](oop.md)
 * 生成器
 * 迭代器
@@ -33,5 +35,5 @@
   * mongodb
   * redis
 * [web服务器](webfu-wu-qi.md)
-* [MQTT](mqtt.md)
+* 列表推导式
 
