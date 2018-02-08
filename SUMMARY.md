@@ -20,6 +20,7 @@
   * [函数定义,调用及文档说明](han-shu/han-shu-ding-yi-he-diao-yong.md)
   * [函数参数](han-shu/han-shu-can-shu.md)
   * [函数返回值](han-shu/han-shu-fan-hui-zhi.md)
+  * [函数\(全局和局部变量\)](han-shu/han-657028-quan-ju-he-ju-bu-bian-91cf29.md)
 * [OOP](oop.md)
 * 生成器
 * 迭代器
