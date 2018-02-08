@@ -8,5 +8,7 @@ lambda函数的语法只包含一个语句，如下：
 lambda [arg1 [,arg2,.....argn]]:expression
 ```
 
+如下实例：
+
 
 
