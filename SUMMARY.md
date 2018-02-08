@@ -44,14 +44,14 @@
 * [包](bao.md)
 * [模块](mo-kuai.md)
   * [模块的制作/发布/安装](mo-kuai/mo-kuai-de-zhi-4f5c-fa-5e03-an-zhuang.md)
-* 生成器
+* [生成器](sheng-cheng-qi.md)
 * 迭代器
 * [装饰器](zhuang-shi-qi.md)
   * [闭包](zhuang-shi-qi/bi-bao.md)
   * [装饰器](zhuang-shi-qi/han-can-shu-de-zhuang-shi-qi.md)
   * [通用的装饰器](zhuang-shi-qi/tong-yong-de-zhuang-shi-qi.md)
-* web服务器
-* 数据结构
+* [web服务器](webfu-wu-qi.md)
+* [数据结构](shu-ju-jie-gou.md)
 * 算法
 * [设计模式](she-ji-mo-shi.md)
   * [工厂模式](she-ji-mo-shi/gong-chang-mo-shi.md)
@@ -61,8 +61,6 @@
   * PostgreSQL
   * mongodb
   * redis
-* [web服务器](webfu-wu-qi.md)
-* 列表推导式
 * [python中特殊事项](pythonzhong-te-shu-shi-xiang.md)
   * [a+=a和a=a+a的区别](pythonzhong-te-shu-shi-xiang/a+ahe-a-a-+-a-de-qu-bie.md)
 
