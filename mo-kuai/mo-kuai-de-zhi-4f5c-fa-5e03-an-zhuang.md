@@ -123,8 +123,6 @@ setup(name="modules", version="1.0", description="Test module", author="test", p
 
 `from 模块名 import 模块名或者*`
 
-
-
 ```
 ywfdeMBP:dist ywf$ tar -xvf modules-1.0.tar.gz  # 解压
 x modules-1.0/
@@ -135,10 +133,25 @@ ywfdeMBP:dist ywf$ cd modules-1.0 # 进入解压轴的目录
 ywfdeMBP:modules-1.0 ywf$ ls
 PKG-INFO        Test.py         setup.py
 
+ywfdeMBP:modules-1.0 ywf$ python setup.py install # 执行安装
+running install
+running build
+running build_py
+creating build
+creating build/lib
+copying Test.py -> build/lib
+running install_lib
+copying build/lib/Test.py -> /Library/Frameworks/Python.framework/Versions/3.6/lib/python3.6/site-packages
+byte-compiling /Library/Frameworks/Python.framework/Versions/3.6/lib/python3.6/site-packages/Test.py to Test.cpython-36.pyc
+running install_egg_info
+Writing /Library/Frameworks/Python.framework/Versions/3.6/lib/python3.6/site-packages/modules-1.0-py3.6.egg-info
+ywfdeMBP:modules-1.0 ywf$
+```
 
+安装成功之后的模块目录：
 
-
-
+```
+/Library/Frameworks/Python.framework/Versions/3.6/lib/python3.6/site-packages/
 ```
 
 
