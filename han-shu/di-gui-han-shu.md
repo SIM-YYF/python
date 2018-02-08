@@ -17,8 +17,6 @@
 n! = n × (n-1)!
 ```
 
-
-
 ```
 In [40]: def callNum(num):
     ...:     if(num >=1):
@@ -31,6 +29,8 @@ In [40]: def callNum(num):
 In [41]: ret = callNum(5)
 
 In [42]: print(ret)
+120
+
 ```
 
 
