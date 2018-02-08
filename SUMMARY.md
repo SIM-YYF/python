@@ -42,6 +42,7 @@
   * [实例方法,类方法和静态方法调用和继承关系](oop/shi-li-fang-6cd52c-lei-fang-fa-he-jing-tai-fang-fa-diao-yong-guan-xi.md)
 * [异常](yi-chang.md)
 * [模块](mo-kuai.md)
+  * [模块的制作/发布/安装](mo-kuai/mo-kuai-de-zhi-4f5c-fa-5e03-an-zhuang.md)
 * 生成器
 * 迭代器
 * [装饰器](zhuang-shi-qi.md)
