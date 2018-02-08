@@ -33,5 +33,21 @@ finally: # 是否有异常，最终都会执行finally语句
    print('finally')
 ```
 
+全局异常捕获
+
+
+
+```
+try:
+     # 执行代码块     
+     num = 100/0
+except Exception as identifier: # 捕获到异常。expression：异常类型   identifier：异常信息
+    print('异常信息:%s'%identifier)
+else: # 没有异常信息
+     print('未发现异常信息')
+finally: # 是否有异常，最终都会执行finally语句
+   print('finally')
+```
+
 
 
