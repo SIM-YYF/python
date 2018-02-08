@@ -17,7 +17,8 @@
 * [可变类型与不可变类型](ke-bian-lei-xing-yu-bu-ke-bian-lei-xing.md)
 * [集合](ji-he.md)
 * [函数](han-shu.md)
-  * [函数定义和调用](han-shu/han-shu-ding-yi-he-diao-yong.md)
+  * [函数定义,调用及文档说明](han-shu/han-shu-ding-yi-he-diao-yong.md)
+  * [函数参数](han-shu/han-shu-can-shu.md)
 * [OOP](oop.md)
 * 生成器
 * 迭代器
