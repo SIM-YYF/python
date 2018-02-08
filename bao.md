@@ -14,3 +14,29 @@
 
 在`__init__.py`文件中，定义一个`__all__`变量，它控制着 from 包名 import \*时导入的模块
 
+### &lt;2&gt; 包的结构
+
+假定我们的包的例子有如下的目录结构：
+
+```
+Phone/
+    __init__.py
+    common_util.py
+    Voicedta/
+        __init__.py
+        Pots.py
+        Isdn.py
+    Fax/
+        __init__.py
+        G3.py
+    Mobile/
+        __init__.py
+        Analog.py
+        igital.py
+    Pager/
+        __init__.py
+        Numeric.py
+```
+
+
+
