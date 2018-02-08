@@ -38,6 +38,7 @@
   * [重写父类方法与调用父类方法](oop/zhong-xie-fu-lei-fang-fa-yu-diao-yong-fu-lei-fang-fa.md)
   * [多态](oop/duo-tai.md)
   * [类属性和实例属性](oop/lei-shu-xing-he-shi-li-shu-xing.md)
+  * [静态方法和类方法](oop/jing-tai-fang-fa-he-lei-fang-fa.md)
 * 生成器
 * 迭代器
 * [装饰器](zhuang-shi-qi.md)
