@@ -38,5 +38,15 @@ printinfo(name="miki" )
 printinfo( age=9,name="miki" )
 ```
 
+#### 注意：带有默认值的参数一定要位于参数列表的最后面。 {#注意：带有默认值的参数一定要位于参数列表的最后面。}
+
+```
+>>> def printinfo(name, age=35, sex):
+...     print name
+...
+  File "<stdin>", line 1
+SyntaxError: non-default argument follows default argument
+```
+
 
 
