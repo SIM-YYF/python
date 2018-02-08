@@ -92,7 +92,7 @@ setup(name="modules", version="1.0", description="Test module", author="test", p
 
 构建后目录结构：
 
-
+![](/assets/Snip20180208_2.png)
 
 #### 生成发布压缩包
 
@@ -100,7 +100,5 @@ setup(name="modules", version="1.0", description="Test module", author="test", p
 
 打包后,生成最终发布压缩包Test-1.0.tar.gz , 目录结构
 
-
-
-
+![](/assets/Snip20180208_3.png)
 
