@@ -50,5 +50,7 @@ SyntaxError: non-default argument follows default argument
 
 ## &lt;4&gt;不定长参数 {#2不定长参数}
 
+函数能处理比当初声明时更多的参数且声明时不会命名，这些参数叫做不定长参数
+
 
 
