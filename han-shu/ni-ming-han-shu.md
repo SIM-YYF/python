@@ -33,7 +33,7 @@ lambda [arg1 [,arg2,.....argn]]:expression
 ...     print "b =", b
 ...     print "result =", opt(a, b)
 ...
->>> fun(1, 2, lambda x,y:x+y)
+>>> fun(1, 2, lambda x,y:x+y) # 匿名函数作为参数传递
 a = 1
 b = 2
 result = 3
