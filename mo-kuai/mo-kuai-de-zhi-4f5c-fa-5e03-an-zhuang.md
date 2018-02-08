@@ -102,3 +102,9 @@ setup(name="modules", version="1.0", description="Test module", author="test", p
 
 ![](/assets/Snip20180208_3.png)
 
+## &lt;6&gt;模块安装、使用
+
+
+
+
+
