@@ -22,6 +22,16 @@
 
 ![](/assets/Snip20180208_7.png)
 
+### 1.5 在msg文件夹下创建`__init__.py`文件 {#15-在msg文件夹下创建initpy文件}
+
+
+
+![](/assets/Snip20180208_8.png)
+
+
+
+
+
 ### &lt;1&gt;`__init__.py`文件作用
 
 1.1`__init__.py`控制导包的导入行为
