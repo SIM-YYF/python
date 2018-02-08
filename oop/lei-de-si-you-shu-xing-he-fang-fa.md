@@ -14,6 +14,13 @@ class Animal(object):
     def test(self):
         print(self.__name)
         print(self.color)
+        
+
+A = Animal()
+#print(A.__name) #程序出现异常，不能访问私有属性
+print(A.color)
+#A.__test() #程序出现异常，不能访问私有方法
+A.test()
 ```
 
 注意事项：
