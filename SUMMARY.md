@@ -19,6 +19,7 @@
 * [函数](han-shu.md)
   * [函数定义,调用及文档说明](han-shu/han-shu-ding-yi-he-diao-yong.md)
   * [函数参数](han-shu/han-shu-can-shu.md)
+  * [函数返回值](han-shu/han-shu-fan-hui-zhi.md)
 * [OOP](oop.md)
 * 生成器
 * 迭代器
