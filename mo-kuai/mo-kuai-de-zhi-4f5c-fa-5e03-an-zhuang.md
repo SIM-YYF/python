@@ -6,8 +6,11 @@
 
 比如有这样一个文件test.py，在test.py中定义了函数add
 
-test.py
+```
 
-  
+    def add(a,b):
+        return a+b
+```
+
 
 
