@@ -2,5 +2,10 @@
 
 想要在函数中把结果返回给调用者，需要在函数中使用return
 
+```
+    def add2num(a, b):
+        return a+b
+```
+
 
 
