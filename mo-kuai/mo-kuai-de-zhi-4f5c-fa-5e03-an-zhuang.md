@@ -151,7 +151,8 @@ ywfdeMBP:modules-1.0 ywf$
 安装成功之后的模块目录：
 
 ```
-/Library/Frameworks/Python.framework/Versions/3.6/lib/python3.6/site-packages/
+/Library/Frameworks/Python.framework/Versions/3.6/lib/python3.6/site-packages/modules-1.0-py3.6.egg-info
+
 ```
 
 
