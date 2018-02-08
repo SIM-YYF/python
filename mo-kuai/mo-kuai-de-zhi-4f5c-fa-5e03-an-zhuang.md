@@ -28,7 +28,7 @@ def add(a, b): # 模块中的函数
     return a+b
 
 
-def main():
+def main(): # 测试模块中函数是否正确
     ret = add(10, 20)
     print('a+b = %d'%ret)
 
