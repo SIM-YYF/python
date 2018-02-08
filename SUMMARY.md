@@ -26,7 +26,7 @@
 * [文件操作](wen-jian-cao-zuo.md)
   * [文件打开和关闭](wen-jian-cao-zuo/wen-jian-da-kai-he-guan-bi.md)
   * [文件的读写](wen-jian-cao-zuo/wen-jian-de-du-xie.md)
-  * 文件的重命名和删除
+  * [文件的重命名和删除](wen-jian-cao-zuo/wen-jian-de-zhong-ming-ming-he-shan-chu.md)
 * [OOP](oop.md)
 * 生成器
 * 迭代器
