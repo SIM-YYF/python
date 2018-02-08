@@ -73,5 +73,7 @@ print("2:%s"%content)
 f.close()
 ```
 
+## &lt;5&gt;定位读写 {#读数据（readline）}
+
 
 
