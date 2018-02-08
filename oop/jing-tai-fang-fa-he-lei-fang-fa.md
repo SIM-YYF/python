@@ -46,3 +46,22 @@ print People.getCountry()
 
 
 
+## 2. 静态方法 {#2-静态方法}
+
+需要通过修饰器`@staticmethod`来进行修饰，静态方法不需要多定义参数
+
+```
+class People(object):
+    country = 'china'
+
+    @staticmethod
+    #静态方法
+    def getCountry():
+        return People.country
+
+
+print People.getCountry()
+```
+
+
+
