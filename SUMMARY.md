@@ -29,7 +29,7 @@
   * [文件备份](wen-jian-cao-zuo/wen-jian-bei-fen.md)
   * [文件的重命名和删除](wen-jian-cao-zuo/wen-jian-de-zhong-ming-ming-he-shan-chu.md)
   * [文件夹相关操作](wen-jian-cao-zuo/wen-jian-jia-xiang-guan-cao-zuo.md)
-  * [批量修改文件名](wen-jian-cao-zuo/pi-liang-xiu-gai-wen-jian-ming.md)
+  * [批量重命名](wen-jian-cao-zuo/pi-liang-xiu-gai-wen-jian-ming.md)
 * [OOP](oop.md)
 * 生成器
 * 迭代器
