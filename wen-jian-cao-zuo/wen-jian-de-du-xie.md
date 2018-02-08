@@ -8,5 +8,9 @@ f.write('hello world, i am here!')
 f.close()
 ```
 
+注意：
+
+* 如果文件不存在那么创建，如果存在那么就先清空，然后写入数据
+
 
 
