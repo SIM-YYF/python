@@ -82,6 +82,23 @@ SyntaxError: non-default argument follows default argument
 >>> fun(1, 2, 3, 4, 5, m=6, n=7, p=8)  # 注意传递的参数对应
 ```
 
+#### 参数为元组和字典进行拆包
+
+```
+>>> def fun(a, b, *args, **kwargs):
+...     """可变参数演示示例"""
+...     print "a =", a
+...     print "b =", b
+...     print "args =", args
+...     print "kwargs: "
+...     for key, value in kwargs.items():
+...         print key, "=", value
+...
+>>> A=(3,4,5)
+>>> B={m=6,n=7,p=8}
+>>> fun(1, 2, *A,**B)  # 对A元组和B字典进行拆包
+```
+
 ## &lt;5&gt;引用传参 {#3-引用传参}
 
 **Python中函数参数是引用传递（注意不是值传递）。**
