@@ -47,6 +47,10 @@ finally: # 是否有异常，最终都会执行finally语句
    print('finally')
 ```
 
+### try嵌套
+
+
+
 
 
 总结：
