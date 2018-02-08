@@ -61,3 +61,17 @@ f.close()
 
 readline可以按照行的方式把文件中的内容按照行读取
 
+```
+f = open('test.txt', 'r')
+
+content = f.readline()
+print("1:%s"%content)
+
+content = f.readline()
+print("2:%s"%content)
+
+f.close()
+```
+
+
+
