@@ -13,9 +13,9 @@
 >>> def divid(a, b):
 ...     shang = a//b
 ...     yushu = a%b 
-...     return shang, yushu
+...     return shang, yushu # 本质是利用了元组
 ...
->>> sh, yu = divid(5, 2)
+>>> sh, yu = divid(5, 2) # 返回元组，并对元组拆包
 >>> sh
 5
 >>> yu
