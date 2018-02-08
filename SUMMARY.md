@@ -39,6 +39,7 @@
   * [多态](oop/duo-tai.md)
   * [类属性和实例属性](oop/lei-shu-xing-he-shi-li-shu-xing.md)
   * [静态方法和类方法](oop/jing-tai-fang-fa-he-lei-fang-fa.md)
+  * [实例方法,类方法和静态方法调用关系](oop/shi-li-fang-6cd52c-lei-fang-fa-he-jing-tai-fang-fa-diao-yong-guan-xi.md)
 * 生成器
 * 迭代器
 * [装饰器](zhuang-shi-qi.md)
