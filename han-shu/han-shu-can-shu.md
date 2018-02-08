@@ -23,5 +23,20 @@
 
 ## &lt;3&gt; 缺省参数 {#1-缺省参数}
 
-调用函数时，缺省参数的值如果没有传入，则被认为是默认值。下例会打印默认的age，如果age没有被传入：
+**调用函数时，缺省参数的值如果没有传入**，则被认为是默认值。
+
+下例会打印默认的age，如果age没有被传入：
+
+```
+def printinfo( name, age = 35 ):
+   # 打印任何传入的字符串
+   print "Name: ", name
+   print "Age ", age
+
+# 调用printinfo函数
+printinfo(name="miki" )
+printinfo( age=9,name="miki" )
+```
+
+
 
