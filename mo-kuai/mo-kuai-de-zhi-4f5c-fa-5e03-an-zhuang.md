@@ -88,5 +88,7 @@ setup(name="modules", version="1.0", description="Test module", author="test", p
 
 #### 构建模块
 
+命令： python setup.py build
+
 
 
