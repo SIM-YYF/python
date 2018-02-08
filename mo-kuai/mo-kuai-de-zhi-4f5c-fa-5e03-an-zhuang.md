@@ -4,7 +4,7 @@
 
 在Python中，每个Python文件都可以作为一个模块，模块的名字就是文件的名字。
 
-比如有这样一个文件test.py，在test.py中定义了函数add
+比如有这样一个文件Test.py，在Test.py中定义了函数add
 
 ```
     def add(a,b):
