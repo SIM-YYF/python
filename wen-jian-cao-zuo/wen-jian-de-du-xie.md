@@ -57,5 +57,7 @@ for temp in content:
 f.close()
 ```
 
+## &lt;4&gt;读数据（readline） {#读数据（readline）}
 
+readline可以按照行的方式把文件中的内容按照行读取
 
