@@ -11,7 +11,7 @@
 
 ```
 # 定义类
-class Car:
+class Car(object):
     # 方法
     def getCarInfo(self):
         print('车轮子个数:%d, 颜色%s'%(self.wheelNum, self.color))
@@ -19,6 +19,11 @@ class Car:
     def move(self):
         print("车正在移动...")
 ```
+
+#### 说明： {#说明：}
+
+* 定义类时有2种：新式类和经典类，上面的Car为经典类，如果是Car\(object\)则为新式类
+* 类名 的命名规则按照"大驼峰"
 
 
 
