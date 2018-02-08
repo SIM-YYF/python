@@ -37,5 +37,22 @@ print(People.name)    #错误
 print(People.age)     #错误
 ```
 
+### 通过实例\(对象\)去修改类属性 {#通过实例对象去修改类属性}
+
+```
+class People(object):
+    country = 'china' #类属性
+
+
+print(People.country)
+p = People()
+print(p.country)
+p.country = 'japan' 
+print(p.country)      #实例属性会屏蔽掉同名的类属性
+print(People.country)
+del p.country    #删除实例属性
+print(p.country)
+```
+
 
 
