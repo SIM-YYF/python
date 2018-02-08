@@ -36,7 +36,26 @@ f.close()
 
 * 如果open是打开一个文件，那么可以不用写打开的模式，即只写
   `open('test.txt')`
-* 如果使用读了多次，那么后面读取的数据是从上次读完后的位置开始的
+* **如果使用读了多次，那么后面读取的数据是从上次读完后的位置开始的**
+
+## &lt;3&gt;读数据（readlines） {#读数据（readlines）}
+
+readlines可以按照行的方式把整个文件中的内容进行一次性读取，并且返回的是一个列表，其中每一行的数据为一个元素
+
+```
+f = open('test.txt', 'r')
+
+content = f.readlines()
+
+print(type(content))
+
+i=1
+for temp in content:
+    print("%d:%s"%(i, temp))
+    i+=1
+
+f.close()
+```
 
 
 
