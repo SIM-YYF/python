@@ -61,5 +61,7 @@ man.func_static_method() # 静态方法不允许子类继承
 man.func_class_method() # 类方法不允许子类继承
 ```
 
+总结：
 
+子类只能继承实例方法，不允许继承静态方法和类方法
 
