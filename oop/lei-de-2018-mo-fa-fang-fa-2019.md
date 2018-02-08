@@ -43,5 +43,7 @@ print('车轮胎数量为:%d'%BMW.wheelNum)
 
 * 当使用print输出对象的时候，只要自己定义了`__str__(self)`方法，那么就会打印从在这个方法中return的数据
 
+### 定义`__str__(self)`
+
 
 
