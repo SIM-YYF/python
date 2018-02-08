@@ -41,6 +41,8 @@ result = 3
 
 ### 使用匿名函数对复杂数据结构排序
 
+#### 按name排序： {#按name排序：}
+
 ```
 >>> stus = [
     {"name":"zhangsan", "age":18}, 
