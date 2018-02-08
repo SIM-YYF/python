@@ -56,5 +56,21 @@ from 模块名 import 函数名1,函数名2....
  from modname import *
 ```
 
+### 导入的模块定义别名
+
+```
+    In [1]: import time as tt
+
+    In [2]: time.sleep(1)
+    ---------------------------------------------------------------------------
+    NameError                                 Traceback (most recent call last)
+    <ipython-input-2-07a34f5b1e42> in <module>()
+    ----> 1 time.sleep(1)
+
+    NameError: name 'time' is not defined
+
+    In [3]: tt.sleep(1)
+```
+
 
 
