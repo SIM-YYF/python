@@ -133,7 +133,6 @@ class Test(object):
                 #重新抛出这个异常，此时就不会被这个异常处理给捕获到，从而触发默认的异常处理
                 raise
 
-
 a = Test(True)
 a.calc(11,0)
 ```
