@@ -36,6 +36,7 @@
   * [类的私有属性和方法](oop/lei-de-si-you-shu-xing-he-fang-fa.md)
   * [单继承](oop/dan-ji-cheng.md)
   * [多继承](oop/duo-ji-cheng.md)
+  * [重写父类方法与调用父类方法](oop/zhong-xie-fu-lei-fang-fa-yu-diao-yong-fu-lei-fang-fa.md)
 * 生成器
 * 迭代器
 * [装饰器](zhuang-shi-qi.md)
