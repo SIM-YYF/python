@@ -93,5 +93,7 @@ dog = Animal("哈皮狗")
 del dog
 ```
 
+# &lt;3&gt;`__new__()`方法 {#new方法}
+
 
 
