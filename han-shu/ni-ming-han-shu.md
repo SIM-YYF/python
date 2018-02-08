@@ -19,5 +19,5 @@ lambda [arg1 [,arg2,.....argn]]:expression
 
 注意事项：
 
-Lambda函数能接收任何数量的参数但只能返回一个表达式的值
+**Lambda函数能接收任何数量的参数但只能返回一个表达式的值**
 
