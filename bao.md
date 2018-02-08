@@ -24,15 +24,25 @@
 
 ### 1.5 在msg文件夹下创建`__init__.py`文件 {#15-在msg文件夹下创建initpy文件}
 
-
-
 ![](/assets/Snip20180208_8.png)
 
+### 1.6 在`__init__.py`文件中写入 {#16-在initpy文件中写入}
 
 
 
+![](/assets/Snip20180208_9.png)
 
-### &lt;1&gt;`__init__.py`文件作用
+### 1.7 重新使用from 文件夹 import 模块 的方式导入 {#17-重新使用from-文件夹-import-模块-的方式导入}
+
+![](/assets/Snip20180208_10.png)
+
+
+
+### 特殊强调：
+
+
+
+### `__init__.py`文件作用
 
 1.1`__init__.py`控制导包的导入行为
 
@@ -42,29 +52,9 @@
 
 在`__init__.py`文件中，定义一个`__all__`变量，它控制着 from 包名 import \*时导入的模块
 
-### &lt;2&gt; 包的结构
 
-假定我们的包的例子有如下的目录结构：
 
-```
-Phone/
-    __init__.py
-    common_util.py
-    Voicedta/
-        __init__.py
-        Pots.py
-        Isdn.py
-    Fax/
-        __init__.py
-        G3.py
-    Mobile/
-        __init__.py
-        Analog.py
-        igital.py
-    Pager/
-        __init__.py
-        Numeric.py
-```
+
 
 
 
