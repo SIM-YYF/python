@@ -64,5 +64,7 @@ BMW = Car(4, "白色")
 print(BMW)
 ```
 
+# &lt;3&gt; `__str__()`方法
+
 
 
