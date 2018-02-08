@@ -95,18 +95,32 @@ finally: # 是否有异常，最终都会执行finally语句
 
 可以用raise语句来引发一个异常。异常/错误对象必须有一个名字，且它们应是Error或Exception类的子类
 
-#### 自定义异常类：
 
-定义的类需要继承Exception
+
+
 
 ```
-class ShortInputException(Exception):
+class MyException(Exception): # 定义的类需要继承Exception
     '''自定义的异常类'''
-    def __init__(self, length, atleast):
+    def __init__(self, message):
         #super().__init__()
-        self.length = length
-        self.atleast = atleast
+        self.info = message
+
+try:
+     # 执行代码块     
+
+    # 抛出自定义异常信息
+    raise MyException('自定义异常') 
+
+except Exception as identifier: # 捕获到异常。expression：异常类型   identifier：异常信息
+    print('异常信息:%s'%identifier)
+else: # 没有异常信息
+     print('未发现异常信息')
+finally: # 是否有异常，最终都会执行finally语句
+   print('finally')
 ```
+
+
 
 
 
