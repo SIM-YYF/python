@@ -31,6 +31,13 @@
 >>> 
 >>> test(11,22)
 33
+
+>>> help(test) # 查看函数的文档说明
+Help on function test in module __main__:
+
+test(a, b)
+    用来完成对2个数求和
+(END)
 ```
 
 
