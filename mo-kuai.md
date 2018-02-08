@@ -58,7 +58,7 @@ from 模块名 import 函数名1,函数名2....
 
 ### 导入的模块定义别名
 
-使用as关键字：
+使用**as**关键字：
 
 ```
     In [1]: import time as tt
