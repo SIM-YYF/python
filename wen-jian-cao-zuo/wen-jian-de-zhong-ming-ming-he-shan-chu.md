@@ -13,5 +13,16 @@ rename\(需要修改的文件名, 新的文件名\)
     os.rename("aa.txt", "aa-update.txt")
 ```
 
+## &lt;2&gt;删除文件 {#删除文件}
+
+os模块中的remove\(\)可以完成对文件的删除操作
+
+remove\(待删除的文件名\)
+
+```
+    import os
+    os.remove("aa.txt")
+```
+
 
 
