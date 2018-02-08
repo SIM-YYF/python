@@ -77,5 +77,27 @@ f.close()
 
 #### &lt;5-1&gt;获取当前读写的位置
 
+在读写文件的过程中，如果想知道当前的位置，可以使用tell\(\)来获取
+
+```
+ # 打开一个已经存在的文件
+    f = open("test.txt", "r")
+    str = f.read(3)
+    print "读取的数据是 : ", str
+
+    # 查找当前位置
+    position = f.tell()
+    print "当前文件位置 : ", position
+
+    str = f.read(3)
+    print "读取的数据是 : ", str
+
+    # 查找当前位置
+    position = f.tell()
+    print "当前文件位置 : ", position
+
+    f.close()
+```
+
 
 
