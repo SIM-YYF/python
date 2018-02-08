@@ -18,7 +18,7 @@ print p.getCountry()    #可以用过实例对象引用
 print People.getCountry()    #可以通过类对象引用
 ```
 
-类方法还有一个用途就是可以对类属性进行修改：
+类方法还有一个用途就是**可以对类属性进行修改**：
 
 ```
 class People(object):
