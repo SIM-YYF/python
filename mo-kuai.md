@@ -44,9 +44,17 @@ from 模块名 import 函数名1,函数名2....
     from fib import fibonacci
 ```
 
-### 注意 {#注意}
+##### 注意
 
 * 不会把整个fib模块导入到当前的命名空间中，它只会将fib里的fibonacci单个引入
+
+### 导入模块中的所有内容
+
+把一个模块的所有内容全都导入到当前的命名空间也是可行的，只需使用如下声明：
+
+```
+ from modname import *
+```
 
 
 
