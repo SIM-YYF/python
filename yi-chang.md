@@ -95,10 +95,6 @@ finally: # 是否有异常，最终都会执行finally语句
 
 可以用raise语句来引发一个异常。异常/错误对象必须有一个名字，且它们应是Error或Exception类的子类
 
-
-
-
-
 ```
 class MyException(Exception): # 定义的类需要继承Exception
     '''自定义的异常类'''
@@ -119,6 +115,8 @@ else: # 没有异常信息
 finally: # 是否有异常，最终都会执行finally语句
    print('finally')
 ```
+
+### 异常处理中抛出异常
 
 
 
