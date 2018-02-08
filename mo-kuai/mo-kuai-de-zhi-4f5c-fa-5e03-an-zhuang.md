@@ -16,12 +16,14 @@
 那么在其他文件中就可以先import test，然后通过test.add\(a,b\)来调用了，当然也可以通过from test import add来引入
 
 ```
-    import test
-    result = test.add(11,22)
+    import Test
+    result = Test.add(11,22)
     print(result)
 ```
 
 ## &lt;3&gt;测试模块 {#测试模块}
+
+Test.py: 模块
 
 ```
 def add(a, b): # 模块中的函数
