@@ -33,5 +33,26 @@ iter({})
 
 ## 2. 判断是否可迭代对象 {#2-判断是否可以迭代}
 
+可以使用 `isinstance()` 判断一个对象是否是 Iterable 对象：
+
+```
+In [50]: from collections import Iterable
+
+In [51]: isinstance([], Iterable)
+Out[51]: True
+
+In [52]: isinstance({}, Iterable)
+Out[52]: True
+
+In [53]: isinstance('abc', Iterable)
+Out[53]: True
+
+In [54]: isinstance((x for x in range(10)), Iterable)
+Out[54]: True
+
+In [55]: isinstance(100, Iterable)
+Out[55]: False
+```
+
 
 
