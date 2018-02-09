@@ -17,5 +17,12 @@ class Money(object):
             print("error:不是整型数字")
 ```
 
+### 3. 使用property取代getter和setter方法 {#3-使用property取代getter和setter方法}
+
+`@property`成为属性函数，可以对属性赋值时做必要的检查，并保证代码的清晰短小，主要有2个作用
+
+* 将方法转换为只读
+* 重新实现一个属性的设置和读取方法,可做边界判定
+
 
 
