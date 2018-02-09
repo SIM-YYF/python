@@ -42,7 +42,7 @@
   * [实例方法,类方法和静态方法调用和继承关系](oop/shi-li-fang-6cd52c-lei-fang-fa-he-jing-tai-fang-fa-diao-yong-guan-xi.md)
   * [私有化](oop/si-you-hua.md)
   * [属性property](oop/shu-xing-property.md)
-* [元类](yuan-lei.md)
+* [元类\(难点\)](yuan-lei.md)
   * [自定义元类](yuan-lei/zi-ding-yi-yuan-lei.md)
 * [异常](yi-chang.md)
 * [包](bao.md)
