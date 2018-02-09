@@ -63,4 +63,5 @@
   * redis
 * [python中特殊事项](pythonzhong-te-shu-shi-xiang.md)
   * [a+=a和a=a+a的区别](pythonzhong-te-shu-shi-xiang/a+ahe-a-a-+-a-de-qu-bie.md)
+  * [==、is区别](pythonzhong-te-shu-shi-xiang/isqu-bie.md)
 
