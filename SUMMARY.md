@@ -48,7 +48,7 @@
   * [模块的制作/发布/安装](mo-kuai/mo-kuai-de-zhi-4f5c-fa-5e03-an-zhuang.md)
 * [元类\(难点\)](yuan-lei.md)
   * [自定义元类](yuan-lei/zi-ding-yi-yuan-lei.md)
-* [动态绑定\(动态性\)](dong-tai-bang-5b9a28-dong-tai-602729.md)
+* [动态绑定\(动态语言\)](dong-tai-bang-5b9a28-dong-tai-602729.md)
 * [生成器](sheng-cheng-qi.md)
 * [迭代器](die-dai-qi.md)
 * [装饰器](zhuang-shi-qi.md)
@@ -56,6 +56,11 @@
   * [装饰器](zhuang-shi-qi/han-can-shu-de-zhuang-shi-qi.md)
   * [通用的装饰器](zhuang-shi-qi/tong-yong-de-zhuang-shi-qi.md)
 * [深拷贝和浅拷贝](shen-kao-bei-he-qian-kao-bei.md)
+* [异步IO](yi-bu-io.md)
+  * 协程
+  * asyncio\(消息队列\)
+  * async/await
+  * aiohttp
 * [web服务器](webfu-wu-qi.md)
 * [数据结构](shu-ju-jie-gou.md)
 * 算法
