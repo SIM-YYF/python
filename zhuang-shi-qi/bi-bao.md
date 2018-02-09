@@ -21,7 +21,6 @@ def test(number):
 
 #给test函数赋值，这个20就是给参数number
 ret = test(20)
-
 #注意这里的100其实给参数number_in
 print(ret(100))
 ```
