@@ -13,7 +13,7 @@
 <generator object <genexpr> at 0x1022ef630>
 ```
 
-### &lt;2&gt; 创建生成器\( \[ \] 改为 \(\) \)
+### &lt;2&gt; yeild 创建生成器\( \[ \] 改为 \(\) \)
 
 
 
