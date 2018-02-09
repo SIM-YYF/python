@@ -176,31 +176,41 @@ Out[5]: 0
 1   5   10  10  5   1
 ```
 
+```
+def triangles():
+    ret = [1]
+    while True:
+        yield ret
+        for i in range(1, len(ret)):
+            ret[i] = pre[i] + pre[i - 1]
+        ret.append(1)
+        pre = ret[:]
 
+t = triangles()
+
+print(next(t)) 
+print(next(t)) 
+print(next(t)) 
+print(next(t)) 
+print(next(t)) 
+print(next(t)) 
+print(next(t)) 
+print(next(t)) 
+print(next(t)) 
+```
+
+打印效果：
 
 ```
-In [23]: t = triangles()
-
-In [24]: next(t)
-Out[24]: [1]
-
-In [25]: next(t)
-Out[25]: [1, 1]
-
-In [26]: next(t)
-Out[26]: [1, 2, 1]
-
-In [27]: next(t)
-Out[27]: [1, 3, 3, 1]
-
-In [28]: next(t)
-Out[28]: [1, 4, 6, 4, 1]
-
-In [29]: next(t)
-Out[29]: [1, 5, 10, 10, 5, 1]
-
-In [30]: next(t)
-Out[30]: [1, 6, 15, 20, 15, 6, 1]
+[1]
+[1, 1]
+[1, 2, 1]
+[1, 3, 3, 1]
+[1, 4, 6, 4, 1]
+[1, 5, 10, 10, 5, 1]
+[1, 6, 15, 20, 15, 6, 1]
+[1, 7, 21, 35, 35, 21, 7, 1]
+[1, 8, 28, 56, 70, 56, 28, 8, 1]
 ```
 
 
