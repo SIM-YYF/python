@@ -120,8 +120,7 @@ Out[47]: 3
 注意事项：
 
 1. 使用f.send\('haha'\) 方式获取元素时，在获取第一个元素时，send\(\)方法中一定传递None作为参数。反之报错！
-2. 
-
+2. 使用f.send\('haha'\) 方式获取元素时，方法中参数，最终赋值给代码中temp遍历。
 
 参考代码：
 
@@ -146,7 +145,6 @@ TypeError: can't send non-None value to a just-started generator
 
 In [5]: f.send(None)
 Out[5]: 0
-
 ```
 
 
