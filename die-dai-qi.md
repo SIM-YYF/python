@@ -79,5 +79,7 @@ In [61]: isinstance(100, Iterator)
 Out[61]: False
 ```
 
+## 4.iter\(\)函数将迭代对象转换为迭代器 {#4iter函数}
+
 
 
