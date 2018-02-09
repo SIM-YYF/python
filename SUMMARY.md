@@ -61,7 +61,7 @@
   * asyncio\(消息队列\)
   * async/await
   * aiohttp
-* [web服务器](webfu-wu-qi.md)
+* [Web开发](webfu-wu-qi.md)
 * [数据结构](shu-ju-jie-gou.md)
 * 算法
 * [设计模式](she-ji-mo-shi.md)
