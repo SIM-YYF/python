@@ -119,8 +119,8 @@ Out[47]: 3
 
 注意事项：
 
-1. _**使用`f.send('haha')` 方式获取元素时，在获取第一个元素时，send\(\)方法中一定传递None作为参数。反之报错！**_
-2. _**使用`f.send('haha') `方式获取元素时，方法中参数，会作为   `yield i`整个语句的返回值赋值给`temp`变量。**_
+1. _**使用**_`f.send('haha')`_** 方式获取元素时，在获取第一个元素时，send\(\)方法中一定传递None作为参数。反之报错！**_
+2. _**使用**_`f.send('haha')`_**方式获取元素时，方法中参数，会作为   **_`yield i`_**整个语句的返回值赋值给**_`temp`_**变量。**_
 
 参考代码：
 
@@ -146,6 +146,10 @@ TypeError: can't send non-None value to a just-started generator
 In [5]: f.send(None)
 Out[5]: 0
 ```
+
+
+
+### &lt;4&gt;生成器的应用
 
 
 
