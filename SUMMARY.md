@@ -43,6 +43,7 @@
   * [私有化](oop/si-you-hua.md)
   * [属性property](oop/shu-xing-property.md)
 * [元类](yuan-lei.md)
+  * [自定义元类](yuan-lei/zi-ding-yi-yuan-lei.md)
 * [异常](yi-chang.md)
 * [包](bao.md)
 * [模块](mo-kuai.md)
