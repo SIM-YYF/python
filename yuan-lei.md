@@ -138,8 +138,6 @@ In [45]: fooclid.testClass()
 
 _**Python中所有的东西，注意:是指所有的东西——都是对象。这包括整数、字符串、函数以及类。它们全部都是对象，而且它们都是从一个类创建而来，这个类就是type**_。
 
-
-
 ```
 >>> age = 35
 >>> age.__class__
@@ -156,5 +154,18 @@ _**Python中所有的东西，注意:是指所有的东西——都是对象。�
 <class '__main__.Bar'>
 ```
 
+现在，对于任何一个\_\_class\_\_的\_\_class\_\_属性又是什么呢？
 
+```
+>>> a.__class__.__class__
+<type 'type'>
+>>> age.__class__.__class__
+<type 'type'>
+>>> foo.__class__.__class__
+<type 'type'>
+>>> b.__class__.__class__
+<type 'type'>
+```
+
+因此，_**元类就是创建类这种对象的东西。type就是Python的内建元类，当然了，你也可以创建自己的元类**_。
 
