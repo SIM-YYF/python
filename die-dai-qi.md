@@ -54,5 +54,30 @@ In [55]: isinstance(100, Iterable)
 Out[55]: False
 ```
 
+## 3.迭代器 {#3迭代器}
+
+可以被next\(\)函数调用并不断返回下一个值的对象称为迭代器：Iterator。
+
+可以使用 isinstance\(\) 判断一个对象是否是 Iterator 对象：
+
+```
+In [56]: from collections import Iterator
+
+In [57]: isinstance((x for x in range(10)), Iterator)
+Out[57]: True
+
+In [58]: isinstance([], Iterator)
+Out[58]: False
+
+In [59]: isinstance({}, Iterator)
+Out[59]: False
+
+In [60]: isinstance('abc', Iterator)
+Out[60]: False
+
+In [61]: isinstance(100, Iterator)
+Out[61]: False
+```
+
 
 
