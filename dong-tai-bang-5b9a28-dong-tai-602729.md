@@ -22,6 +22,11 @@
 ### &lt;2&gt;运行的过程中给`类`绑定\(添加\)属性 {#3-运行的过程中给类绑定添加属性}
 
 ```
+>>> class Person(object):
+    def __init__(self, name = None, age = None):
+        self.name = name
+        self.age = age
+
 >>>> Person.sex = None #给类Person添加一个属性
 >>> P1 = Person("小丽", "25")
 >>> print(P1.sex) #如果P1这个实例对象中没有sex属性的话，那么就会访问它的类属性
