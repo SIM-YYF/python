@@ -64,7 +64,8 @@
   * aiohttp
 * [Web开发](webfu-wu-qi.md)
 * [数据结构](shu-ju-jie-gou.md)
-* 算法
+* [算法](suan-fa.md)
+  * [使用生成器打印杨辉三角\(即帕斯卡三角形\)](suan-fa/shi-yong-sheng-cheng-qi-da-yin-yang-hui-san-89d228-ji-pa-si-qia-san-jiao-5f6229.md)
 * [设计模式](she-ji-mo-shi.md)
   * [工厂模式](she-ji-mo-shi/gong-chang-mo-shi.md)
   * [单例模式](she-ji-mo-shi/dan-li-mo-shi.md)
