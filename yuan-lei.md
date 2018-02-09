@@ -39,5 +39,19 @@ type 接受一个字典来为类定义属性，因此:
 …       bar = True
 ```
 
+并且可以将Foo当成一个普通的类一样使用：
+
+```
+>>> print Foo
+<class '__main__.Foo'>
+>>> print Foo.bar
+True
+>>> f = Foo()
+>>> print f
+<__main__.Foo object at 0x8a9b84c>
+>>> print f.bar
+True
+```
+
 
 
