@@ -93,5 +93,11 @@ In [63]: isinstance(iter('abc'), Iterator)
 Out[63]: True
 ```
 
+## 总结 {#总结}
+
+* 凡是可作用于 for 循环的对象都是 Iterable 类型；
+* 凡是可作用于 next\(\) 函数的对象都是 Iterator 类型
+* 集合数据类型如 list 、 dict 、 str 等是 Iterable 但不是 Iterator ，不过可以通过 iter\(\) 函数获得一个 Iterator 对象。
+
 
 
