@@ -92,3 +92,33 @@ In [39]:
 
 
 
+```
+In [10]: def gen():
+   ....:     i = 0
+   ....:     while i<5:
+   ....:         temp = yield i
+   ....:         print(temp)
+   ....:         i+=1
+   ....:
+   
+In [11]: f = gen()
+
+In [12]: next(f) # 使用next(生成器对象)方法
+Out[12]: 0
+
+In [13]: next(f)
+None
+Out[13]: 1
+
+In [21]: f.__next__() # 生成器对象.__next__()方法
+None
+Out[21]: 2
+
+In [47]: f.send('haha') # 生成器对象.send(‘ parma’)方法
+haha
+Out[47]: 3
+
+```
+
+
+
