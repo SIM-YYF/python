@@ -73,5 +73,51 @@ True
 
 ### &lt;4&gt;使用type创建带有方法的类 {#5-使用type创建带有方法的类}
 
+##### 添加实例方法 {#添加实例方法}
+
+```
+In [46]: def echo_bar(self): #定义了一个普通的函数
+    ...:     print(self.bar)
+    ...:
+In [47]: FooChild = type('FooChild', (Foo,), {'echo_bar': echo_bar}) #让FooChild类中的echo_bar属性，指向了上面定义的函数
+
+In [48]: hasattr(Foo, 'echo_bar') #判断Foo类中，是否有echo_bar这个属性
+Out[48]: False
+In [49]:
+In [49]: hasattr(FooChild, 'echo_bar') #判断FooChild类中，是否有echo_bar这个属性
+Out[49]: True
+
+In [50]: my_foo = FooChild()
+
+In [51]: my_foo.echo_bar()
+True
+```
+
+##### 添加静态方法 {#添加静态方法}
+
+```
+In [36]: @staticmethod
+    ...: def testStatic():
+    ...:     print("static method ....")
+    ...:
+
+In [37]: Foochild = type('Foochild', (Foo,), {"echo_bar":echo_bar, "testStatic":testStatic})
+
+In [38]: fooclid = Foochild()
+
+In [39]: fooclid.testStatic
+Out[39]: <function __main__.testStatic>
+
+In [40]: fooclid.testStatic()
+static method ....
+
+In [41]: fooclid.echo_bar()
+True
+```
+
+
+
+##### 添加类方法 {#添加类方法}
+
 
 
