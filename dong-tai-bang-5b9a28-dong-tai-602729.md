@@ -36,10 +36,10 @@ None #可以看到没有出现异常
 
 ### &lt;3&gt;运行的过程中给类绑定\(添加\)&lt;实例/静态/类&gt;方法 {#4-运行的过程中给类绑定添加方法}
 
-想要给类动态绑定方法，需要types模块下的MethodType\(\)方法，进行动态绑定
+
 
 ```
-import types
+import types  # 导入types模块
 
 #定义了一个类
 class Person(object):
@@ -87,5 +87,7 @@ Person.testStatic = testStatic
 Person.testStatic()
 ```
 
+注意：
 
+_**想要给类动态绑定`实例`方法，需要types模块下的MethodType\(\)方法，进行动态绑定**_
 
