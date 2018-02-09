@@ -90,8 +90,6 @@ In [39]:
 2. 生成器对象.\_\__next_\_\_\(\)方法
 3. 生成器对象.send\(‘ parma’\)方法
 
-
-
 ```
 In [10]: def gen():
    ....:     i = 0
@@ -100,7 +98,7 @@ In [10]: def gen():
    ....:         print(temp)
    ....:         i+=1
    ....:
-   
+
 In [11]: f = gen()
 
 In [12]: next(f) # 使用next(生成器对象)方法
@@ -117,6 +115,37 @@ Out[21]: 2
 In [47]: f.send('haha') # 生成器对象.send(‘ parma’)方法
 haha
 Out[47]: 3
+```
+
+注意事项：
+
+1. 使用f.send\('haha'\) 方式获取元素时，在获取第一个元素时，send\(\)方法中一定传递None作为参数。反之报错！
+2. 
+
+
+参考代码：
+
+```
+In [2]: def gen():
+   ...:     i=0
+   ...:     while i < 5:
+   ...:         temp = yield i
+   ...:         print(temp)
+   ...:         i+=1
+   ...:
+
+In [3]: f = gen()
+
+In [4]: f.send('aa')
+---------------------------------------------------------------------------
+TypeError                                 Traceback (most recent call last)
+<ipython-input-4-f5a31797d2d7> in <module>()
+----> 1 f.send('aa')
+
+TypeError: can't send non-None value to a just-started generator
+
+In [5]: f.send(None)
+Out[5]: 0
 
 ```
 
