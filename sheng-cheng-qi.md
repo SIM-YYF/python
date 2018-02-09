@@ -4,8 +4,6 @@
 
 ### &lt;1&gt; 创建生成器\( \[ \] 改为 \(\) \)
 
-
-
 ```
 >>> L = [x * x for x in range(10)] # 列表
 >>> L
@@ -14,6 +12,8 @@
 >>> g
 <generator object <genexpr> at 0x1022ef630>
 ```
+
+
 
 
 
