@@ -41,5 +41,23 @@ class Money(object):
             print("error:不是整型数字")
 ```
 
+运行结果：
+
+```
+In [3]: a = Money()
+
+In [4]: 
+
+In [4]: 
+
+In [4]: a.money
+Out[4]: 0
+
+In [5]: a.money = 100
+
+In [6]: a.money
+Out[6]: 100
+```
+
 
 
