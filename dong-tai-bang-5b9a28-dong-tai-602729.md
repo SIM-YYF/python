@@ -13,6 +13,10 @@
         self.age = age
 
 >>> P = Person("小明", "24")
+>>> P.sex = "male"   # sex属性动态绑定
+>>> P.sex
+'male'
+>>>
 ```
 
 
