@@ -50,6 +50,7 @@
   * [闭包](zhuang-shi-qi/bi-bao.md)
   * [装饰器](zhuang-shi-qi/han-can-shu-de-zhuang-shi-qi.md)
   * [通用的装饰器](zhuang-shi-qi/tong-yong-de-zhuang-shi-qi.md)
+* [深拷贝和浅拷贝](shen-kao-bei-he-qian-kao-bei.md)
 * [web服务器](webfu-wu-qi.md)
 * [数据结构](shu-ju-jie-gou.md)
 * 算法
