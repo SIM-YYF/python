@@ -22,7 +22,7 @@ def upper_attr(future_class_name, future_class_parents, future_class_attr):
     #调用type来创建一个类
     return type(future_class_name, future_class_parents, newAttr)
 
-class Foo(object, metaclass=upper_attr): # 在定义的类中添加自定义元类
+class Foo(object, metaclass=upper_attr): # metaclass：在定义的类中添加自定义元类
     bar = 'bip'
 
 print(hasattr(Foo, 'bar'))
