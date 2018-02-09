@@ -32,5 +32,12 @@ type 接受一个字典来为类定义属性，因此:
 >>> Foo = type('Foo', (), {'bar':True})
 ```
 
+可以翻译为：
+
+```
+>>> class Foo(object):
+…       bar = True
+```
+
 
 
