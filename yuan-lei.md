@@ -34,10 +34,6 @@ Out[5]: <__main__.Test2 at 0x10d406b38>
 >>> FooChild = type('FooChild', (Foo,),{})  # 子类 继承 Foo
 ```
 
-###  {#4-使用type创建带有属性的类}
-
-###  {#4-使用type创建带有属性的类}
-
 ### &lt;3&gt;使用type创建带有属性的类 {#4-使用type创建带有属性的类}
 
 type 接受一个字典来为类定义属性，因此:
