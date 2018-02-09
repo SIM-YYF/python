@@ -81,5 +81,17 @@ Out[61]: False
 
 ## 4.iter\(\)函数将迭代对象转换为迭代器 {#4iter函数}
 
+生成器都是 Iterator 对象，但 list 、 dict 、 str 虽然是 Iterable ，却不是 Iterator 。
+
+把 list 、 dict 、 str 等 Iterable 变成 Iterator 可以使用 iter\(\) 函数：
+
+```
+In [62]: isinstance(iter([]), Iterator)
+Out[62]: True
+
+In [63]: isinstance(iter('abc'), Iterator)
+Out[63]: True
+```
+
 
 
