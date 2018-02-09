@@ -115,9 +115,25 @@ In [41]: fooclid.echo_bar()
 True
 ```
 
-
-
 ##### 添加类方法 {#添加类方法}
+
+```
+In [42]: @classmethod
+    ...: def testClass(cls):
+    ...:     print(cls.bar)
+    ...:
+
+In [43]:
+
+In [43]: Foochild = type('Foochild', (Foo,), {"echo_bar":echo_bar, "testStatic":testStatic, "testClass":testClass})
+
+In [44]:
+
+In [44]: fooclid = Foochild()
+
+In [45]: fooclid.testClass()
+True
+```
 
 
 
