@@ -113,3 +113,17 @@ print(f.BAR)
 
 
 
+## 总结：
+
+元类创建过程：
+
+1. Foo中有\_\_metaclass\_\_这个属性吗？如果是，Python会通过\_\_metaclass\_\_创建一个名字为Foo的类\(对象\)
+2. 如果Python没有找到\_\_metaclass\_\_，它会继续在Bar（父类）中寻找\_\_metaclass\_\_属性，并尝试做和前面同样的操作。
+3. 如果Python在任何父类中都找不到\_\_metaclass\_\_，它就会在模块层次中去寻找\_\_metaclass\_\_，并尝试做同样的操作。
+4. 如果还是找不到\_\_metaclass\_\_,Python就会用内置的type来创建这个类对象。
+
+  
+
+
+
+
