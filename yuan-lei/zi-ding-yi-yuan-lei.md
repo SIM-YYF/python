@@ -9,5 +9,28 @@
 采用这种方法，这个模块中的所有类都会通过这个元类来创建，我们只需要告诉元类把所有的属性都改成大写形式就万事大吉了。
 ```
 
+代码如下：
+
+```
+def upper_attr(future_class_name, future_class_parents, future_class_attr):
+    #遍历属性字典，把不是__开头的属性名字变为大写
+    newAttr = {}
+    for name,value in future_class_attr.items():
+        if not name.startswith("__"):
+            newAttr[name.upper()] = value
+
+    #调用type来创建一个类
+    return type(future_class_name, future_class_parents, newAttr)
+
+class Foo(object, metaclass=upper_attr): # 在定义的类中添加自定义元类
+    bar = 'bip'
+
+print(hasattr(Foo, 'bar'))
+print(hasattr(Foo, 'BAR'))
+
+f = Foo()
+print(f.BAR)
+```
+
 
 
