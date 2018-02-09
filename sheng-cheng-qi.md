@@ -13,7 +13,49 @@
 <generator object <genexpr> at 0x1022ef630>
 ```
 
-### &lt;2&gt; yeild 创建生成器\( \[ \] 改为 \(\) \)
+以上创建的生成器，需要通过next\(\)方法，类计算每个元素。
+
+如：
+
+```
+>>> next(g)
+0
+>>> next(g)
+1
+>>> next(g)
+4
+>>> next(g)
+9
+>>> next(g)
+16
+>>> next(g)
+25
+>>> next(g)
+36
+>>> next(g)
+49
+>>> next(g)
+64
+>>> next(g)
+81
+>>> next(g)
+Traceback (most recent call last):
+  File "<stdin>", line 1, in <module>
+StopIteration
+```
+
+**特殊强调：**
+
+**将列表 \[\] 改为 \(\) 这种方式创建的生成器，存在一些缺陷：**
+
+1. **获取元素，必须要使用next\(\)方法。开发中不使用**
+2. **当next\(\)方法读取下一个元素时，如果元素不存在，就会报错。**
+
+
+
+为了解决以上带来的缺陷，我们需要采用`yeild语句来创建生成器`。并且该生成器可以迭代。
+
+### &lt;2&gt; yeild 创建生成器
 
 ```
 def fib(max):
