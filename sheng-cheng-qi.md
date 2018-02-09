@@ -191,7 +191,7 @@ def triangles():
             #  比如：
             # pre = [1,2,1]
             # ret =  [1,3,3,1]
-            # ret的第2个元素 3 : pre中的第2元素(1) + 第1个元素(2)
+            # ret的第2个元素 3 : pre中的第2元素(2) + 第1个元素(1)
             # ret的第3个元素 3 :  pre中的第3个元素 (1) + 第2个元素(2)
             # 以此类推....
         for i in range(1, len(ret)):
@@ -209,7 +209,7 @@ print(next(t))
 print(next(t)) 
 print(next(t)) 
 print(next(t)) 
-print(next(t)) 
+print(next(t))
 ```
 
 打印效果：
