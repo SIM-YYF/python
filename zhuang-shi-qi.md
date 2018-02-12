@@ -159,5 +159,3 @@ python解析器就会调用返回的callable对象。并且callable对象内部�
 
 
 
-
-
