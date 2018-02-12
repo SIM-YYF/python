@@ -65,8 +65,6 @@ foo(3,5,7)
 
 ### &lt;3&gt;装饰器中的return {#例4装饰器中的return}
 
-
-
 装饰器\(内部函数\),没有使用return 返回函数：
 
 ```
@@ -81,19 +79,18 @@ def timefun(func):
 @timefun
 def foo():
     print("I am foo")
+    
+
+print(getInfo())
 ```
 
+打印结果：
 
-
-
-
-
-
-
+```
+None
+```
 
 装饰器\(内部函数\),使用return 返回函数：
-
-
 
 ```
 from time import ctime, sleep
