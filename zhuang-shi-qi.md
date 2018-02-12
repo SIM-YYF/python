@@ -65,7 +65,19 @@ foo(3,5,7)
 
 ### &lt;3&gt;装饰器中的return {#例4装饰器中的return}
 
+```
+from time import ctime, sleep
 
+def timefun(func):
+    def wrappedfunc():
+        print("%s called at %s"%(func.__name__, ctime()))
+        return func()
+    return wrappedfunc
+
+@timefun
+def foo():
+    print("I am foo")
+```
 
 
 
