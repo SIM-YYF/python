@@ -105,6 +105,8 @@ def timefun(func):
 @timefun
 def foo():
     print("I am foo")
+    
+print(getInfo()) # 调用被装饰的函数
 ```
 
 打印结果：
@@ -119,6 +121,22 @@ getInfo called at Fri Nov  4 21:55:59 2016
 * 一般情况下为了让装饰器更通用，可以有return
 
 ### &lt;3&gt;含有参数的装饰器 {#例4装饰器中的return}
+
+```
+from time import ctime, sleep
+
+def timefun_arg(pre="hello"):
+    def timefun(func):
+        def wrappedfunc():
+            print("%s called at %s %s"%(func.__name__, ctime(), pre))
+            return func()
+        return wrappedfunc
+    return timefun
+
+@timefun_arg("itcast")
+def foo():
+    print("I am foo")
+```
 
 
 
