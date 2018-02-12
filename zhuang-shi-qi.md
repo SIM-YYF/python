@@ -16,8 +16,6 @@
 
 ### &lt;1&gt; 被装饰的有参函数 {#例2被装饰的函数有参数}
 
-
-
 ```
 from time import ctime, sleep
 
@@ -33,6 +31,20 @@ def foo(a, b):
     print(a+b)
 
 foo(3,5)
+
+
+```
+
+强调：装饰器的调用过程：
+
+```
+foo = timefun(foo)
+#foo函数先作为实参赋值给timefun函数的func后。
+#foo变量接收指向timefun函数返回的wrappedfunc
+foo()
+#调用foo(),即等价调用wrappedfunc()
+#内部函数wrappedfunc被引用，所以外部函数的func变量(自由变量)并没有释放
+#func里保存的是原foo函数对象
 ```
 
 
