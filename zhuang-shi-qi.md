@@ -77,8 +77,8 @@ def timefun(func):
     return wrappedfunc
 
 @timefun
-def foo():
-    print("I am foo")
+def getInfo():
+    return '----hahah---'
 
 
 print(getInfo()) # 调用被装饰的函数
@@ -101,10 +101,10 @@ def timefun(func):
         print("%s called at %s"%(func.__name__, ctime()))
         return func()
     return wrappedfunc
-
+    
 @timefun
-def foo():
-    print("I am foo")
+def getInfo():
+    return '----hahah---'
 
 print(getInfo()) # 调用被装饰的函数
 ```
@@ -133,9 +133,11 @@ def timefun_arg(pre="hello"):
         return wrappedfunc
     return timefun
 
-@timefun_arg("itcast")
-def foo():
-    print("I am foo")
+@timefun_arg("python")
+def too():
+    print("I am too")
+    
+foo() # 调用(可以理解为：foo()==timefun_arg("itcast")(foo)())
 ```
 
 
