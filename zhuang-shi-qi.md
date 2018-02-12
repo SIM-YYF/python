@@ -157,3 +157,7 @@ python解析器就会调用返回的callable对象。并且callable对象内部�
 
 如果让一个类成为callable对象，我们只需要类重写`__call__()`方法,即可。
 
+
+
+
+
