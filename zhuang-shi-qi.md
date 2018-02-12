@@ -153,7 +153,7 @@ foo() # 调用(可以理解为：foo()==timefun_arg("python")(foo)())
 
 我们知道，装饰器其实就是对一个接口的约束，必须接受一个callable对象作为参数，然后返回一个callable对象。
 
-python解析器就会调用返回的callable对象。并且callable对象内部实现了`__call__()`方法
+python解析器就会调用返回的callable对象。并且callable对象内部实现了`__call__()`方法。
 
-
+如果让一个类成为callable对象，我们只需要类重写`__call__()`方法,即可。
 
