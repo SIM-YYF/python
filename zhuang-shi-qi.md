@@ -118,5 +118,7 @@ getInfo called at Fri Nov  4 21:55:59 2016
 
 * 一般情况下为了让装饰器更通用，可以有return
 
+### &lt;3&gt;含有参数的装饰器 {#例4装饰器中的return}
+
 
 
