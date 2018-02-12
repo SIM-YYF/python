@@ -142,3 +142,7 @@ foo() # 调用(可以理解为：foo()==timefun_arg("python")(foo)())
 
 
 
+### &lt;4&gt;类装饰器 {#例4装饰器中的return}
+
+
+
