@@ -79,7 +79,7 @@ def timefun(func):
 @timefun
 def foo():
     print("I am foo")
-    
+
 
 print(getInfo())
 ```
@@ -87,7 +87,8 @@ print(getInfo())
 打印结果：
 
 ```
-None
+getInfo called at Fri Nov  4 21:55:37 2016
+None  # 如果没有return 并不会打印出内容
 ```
 
 装饰器\(内部函数\),使用return 返回函数：
@@ -104,6 +105,13 @@ def timefun(func):
 @timefun
 def foo():
     print("I am foo")
+```
+
+打印结果：
+
+```
+getInfo called at Fri Nov  4 21:55:59 2016
+----hahah---
 ```
 
 
