@@ -111,7 +111,7 @@ def foo():
 
 ```
 getInfo called at Fri Nov  4 21:55:59 2016
-----hahah---   # 
+----hahah---   #修改装饰器为return func()，就可以打印出相应的内容
 ```
 
 
