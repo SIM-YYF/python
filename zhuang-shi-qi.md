@@ -14,5 +14,26 @@
 6. 缓存
 7. 用户登录验证机制
 
+### &lt;1&gt; 被装饰的有参函数 {#例2被装饰的函数有参数}
+
+
+
+```
+from time import ctime, sleep
+
+def timefun(func):
+    def wrappedfunc(a, b):
+        print("%s called at %s"%(func.__name__, ctime()))
+        print(a, b)
+        func(a, b)
+    return wrappedfunc
+
+@timefun
+def foo(a, b):
+    print(a+b)
+
+foo(3,5)
+```
+
 
 
