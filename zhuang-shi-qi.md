@@ -81,7 +81,7 @@ def foo():
     print("I am foo")
 
 
-print(getInfo())
+print(getInfo()) # 调用被装饰的函数
 ```
 
 打印结果：
@@ -105,7 +105,7 @@ def timefun(func):
 @timefun
 def foo():
     print("I am foo")
-    
+
 print(getInfo()) # 调用被装饰的函数
 ```
 
