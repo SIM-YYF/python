@@ -157,5 +157,23 @@ python解析器就会调用返回的callable对象。并且callable对象内部�
 
 如果让一个类成为callable对象，我们只需要类重写`__call__()`方法,即可。
 
+```
+class Test(object):
+    def __init__(self, func):
+        print("---初始化---")
+        print("func name is %s"%func.__name__)
+        self.__func = func
+    def __call__(self):
+        print("---装饰器中的功能---")
+        self.__func()
+        
+
+@Test
+def test():
+    print("----test---")
+test()
+showpy()#如果把这句话注释，重新运行程序，依然会看到"--初始化--"
+```
+
 
 
