@@ -101,7 +101,7 @@ def timefun(func):
         print("%s called at %s"%(func.__name__, ctime()))
         return func()
     return wrappedfunc
-    
+
 @timefun
 def getInfo():
     return '----hahah---'
@@ -136,8 +136,8 @@ def timefun_arg(pre="hello"):
 @timefun_arg("python")
 def too():
     print("I am too")
-    
-foo() # 调用(可以理解为：foo()==timefun_arg("itcast")(foo)())
+
+foo() # 调用(可以理解为：foo()==timefun_arg("python")(foo)())
 ```
 
 
