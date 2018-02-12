@@ -63,5 +63,7 @@ def foo(a, b, c):
 foo(3,5,7)
 ```
 
+### &lt;3&gt;装饰器中的return {#例4装饰器中的return}
+
 
 
