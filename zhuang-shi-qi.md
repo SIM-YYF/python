@@ -91,7 +91,7 @@ getInfo called at Fri Nov  4 21:55:37 2016
 None  # 如果没有return 并不会打印出内容
 ```
 
-装饰器\(内部函数\),使用return 返回函数：
+装饰器\(内部函数\),使用`return func()` 返回函数：
 
 ```
 from time import ctime, sleep
@@ -111,7 +111,7 @@ def foo():
 
 ```
 getInfo called at Fri Nov  4 21:55:59 2016
-----hahah---
+----hahah---   # 
 ```
 
 
