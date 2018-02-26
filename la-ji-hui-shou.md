@@ -69,3 +69,5 @@ list2.append(list1)
 
 
 
+## 分代收集
+
