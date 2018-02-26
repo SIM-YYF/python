@@ -52,7 +52,6 @@
 * [迭代器](die-dai-qi.md)
 * [闭包](zhuang-shi-qi/bi-bao.md)
 * [装饰器](zhuang-shi-qi.md)
-  * [通用的装饰器](zhuang-shi-qi/tong-yong-de-zhuang-shi-qi.md)
 * [深拷贝和浅拷贝](shen-kao-bei-he-qian-kao-bei.md)
 * [垃圾回收](la-ji-hui-shou.md)
 * [内存管理机制](nei-cun-guan-li-ji-zhi.md)
