@@ -52,7 +52,12 @@ object del,id:0x237cf58
 
 * 循环引用导致内存泄漏
 
-
+```
+list1 = []
+list2 = []
+list1.append(list2)
+list2.append(list1)
+```
 
 
 
