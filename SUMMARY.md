@@ -71,6 +71,7 @@
 * [数据结构与算法](shu-ju-jie-gou.md)
 * [数据库](shu-ju-ku.md)
   * [Mysql](shu-ju-ku/mysql.md)
+    * 1
   * PostgreSQL
   * mongodb
   * redis
