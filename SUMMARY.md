@@ -58,8 +58,8 @@
 * [内建属性和函数](nei-jian-shu-xing-he-han-shu.md)
   * [属性](nei-jian-shu-xing-he-han-shu/shu-xing.md)
   * [函数](nei-jian-shu-xing-he-han-shu/han-shu.md)
-* 工具函数库\(functools\)
-* 标准模块
+* [函数工具库\(functools\)](gong-ju-han-shu-5e9328-functools.md)
+* [标准模块](biao-zhun-mo-kuai.md)
 * [协程](yi-bu-io/xie-cheng.md)
 * [Web开发](webfu-wu-qi.md)
 * [数据结构](shu-ju-jie-gou.md)
