@@ -42,5 +42,5 @@ a9 = "HelloWorld"
 
 以上定义了9个对象，由于intern机制，让每个对象占用一个`HelloWorld`所占用的内存空间。靠引用计数去维护何时释放
 
-
+![](/assets/Snip20180226_2.png)
 
