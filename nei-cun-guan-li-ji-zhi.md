@@ -1,4 +1,4 @@
-Python的内存管理机制可以从两个方面来讲：
+Python的内存管理机制可以从三个方面来讲：
 
 ### 垃圾回收
 
@@ -25,6 +25,22 @@ Python的内存机制以金字塔行进行管理：如图所示：
   ```
 
 * 第3层是最上层，也就是我们对Python对象的直接操作；
+
+
+
+### intern机制
+
+```
+a1 = "HelloWorld"
+a2 = "HelloWorld"
+a3 = "HelloWorld"
+a4 = "HelloWorld"
+a5 = "HelloWorld"
+a6 = "HelloWorld"
+a7 = "HelloWorld"
+a8 = "HelloWorld"
+a9 = "HelloWorld"
+```
 
 
 
