@@ -45,7 +45,7 @@
   * [属性property](oop/shu-xing-property.md)
 * [异常](yi-chang.md)
 * [包](bao.md)
-* [模块](mo-kuai.md)
+* [模块\(制作/发布/安装\)](mo-kuai.md)
   * [模块的制作/发布/安装](mo-kuai/mo-kuai-de-zhi-4f5c-fa-5e03-an-zhuang.md)
 * [内建模块](nei-jian-mo-kuai.md)
 * [元类\(难点\)](yuan-lei.md)
