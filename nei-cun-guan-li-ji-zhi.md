@@ -26,8 +26,6 @@ Python的内存机制以金字塔行进行管理：如图所示：
 
 * 第3层是最上层，也就是我们对Python对象的直接操作；
 
-
-
 ### intern机制
 
 ```
@@ -41,6 +39,8 @@ a7 = "HelloWorld"
 a8 = "HelloWorld"
 a9 = "HelloWorld"
 ```
+
+以上定义了9个对象，由于intern机制，让每个对象占用一个`HelloWorld`所占用的内存空间。靠引用计数去维护何时释放
 
 
 
