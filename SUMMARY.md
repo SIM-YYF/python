@@ -70,6 +70,7 @@
   * [hashlib](biao-zhun-mo-kuai/hashlib.md)
   * [collections](biao-zhun-mo-kuai/collections.md)
   * [Base64](biao-zhun-mo-kuai/base64.md)
+  * [datetime](biao-zhun-mo-kuai/datetime.md)
 * [工具函数库\(functools\)](gong-ju-han-shu-5e9328-functools.md)
 * [进程](jin-cheng.md)
 * [线程](xian-cheng.md)
