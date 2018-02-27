@@ -1,5 +1,7 @@
 ### 常用标准库 {#常用标准库}
 
+更多的标准库：http://python.usyiyi.cn/translate/python\_352/library/index.html
+
 | 标准库 | 说明 |
 | :--- | :--- |
 | builtins | 内建函数默认加载 |
@@ -21,7 +23,15 @@
 | shutil | 文件和目录管理 |
 | glob | 基于文件通配符搜索 |
 
-###  {#hashlib}
+
+
+
+
+
+
+
+
+
 
 
 
