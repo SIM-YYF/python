@@ -226,5 +226,9 @@ print(list(l3))
 filter(function or None, sequence) -> list, tuple, or string
 ```
 
+* function:接受一个参数，返回布尔值True或False
+
+* sequence:序列可以是str，tuple，list
+
 
 
