@@ -18,3 +18,14 @@ OrderedDict([('a', 1), ('b', 2), ('c', 3)])
 
 注意，`OrderedDict`的Key会按照插入的顺序排列，不是Key本身排序：
 
+```
+>>> od = OrderedDict()
+>>> od['z'] = 1
+>>> od['y'] = 2
+>>> od['x'] = 3
+>>> od.keys() # 按照插入的Key的顺序返回
+['z', 'y', 'x']
+```
+
+
+
