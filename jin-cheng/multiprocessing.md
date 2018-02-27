@@ -114,5 +114,21 @@ p1.join()
 print("p1.is_alive=%s"%p1.is_alive())
 ```
 
+执行结果：
+
+```
+进程ID：19866
+p2.is_alive=True
+p1.name=Process-1
+p1.pid=19867
+p2.name=pname
+p2.pid=19868
+worker_1,父进程(19866),当前进程(19867)
+worker_2,父进程(19866),当前进程(19868)
+worker_2,执行时间为'1.00'秒
+worker_1,执行时间为'2.00'秒
+p1.is_alive=False
+```
+
 
 
