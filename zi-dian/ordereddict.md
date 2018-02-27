@@ -27,5 +27,5 @@ OrderedDict([('a', 1), ('b', 2), ('c', 3)])
 ['z', 'y', 'x']
 ```
 
-
+`OrderedDict`可以实现一个FIFO（先进先出）的dict，当容量超出限制时，先删除最早添加的Key：
 
