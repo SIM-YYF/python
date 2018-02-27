@@ -83,6 +83,7 @@
   * [Thread类\(创建多线程\)](xian-cheng/thread7c7b28-chuang-jian-duo-xian-7a0b29.md)
   * [多线程共享全局变量](xian-cheng/duo-xian-cheng-gong-xiang-quan-ju-bian-liang.md)
   * [多线程非共享局部变量](xian-cheng/duo-xian-cheng-fei-gong-xiang-ju-bu-bian-liang.md)
+  * [多线程\(ThreadLocal\)非共享数据](xian-cheng/duo-xian-7a0b28-threadlocal-fei-gong-xiang-shu-ju.md)
 * [进程VS线程](jin-cheng-vs-xian-cheng.md)
 * [协程](yi-bu-io/xie-cheng.md)
 * [网络编程](wang-luo-bian-cheng.md)
