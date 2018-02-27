@@ -28,3 +28,12 @@ t2.join()
 
 
 
+执行结果：
+
+```
+Hello, name-1 (in Thread-A)
+Hello, name-2 (in Thread-B)
+```
+
+
+
