@@ -158,5 +158,12 @@
 ]
 ```
 
+#### range {#range}
+
+```
+range(stop) -> list of integers
+range(start, stop[, step]) -> list of integers
+```
+
 
 
