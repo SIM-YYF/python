@@ -26,8 +26,6 @@ t1.join()
 t2.join()
 ```
 
-
-
 执行结果：
 
 ```
@@ -35,5 +33,5 @@ Hello, name-1 (in Thread-A)
 Hello, name-2 (in Thread-B)
 ```
 
-
+全局变量local\_school就是一个ThreadLocal对象，每个Thread对它都可以读写student属性，但互不影响。
 
