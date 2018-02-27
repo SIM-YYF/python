@@ -246,5 +246,20 @@ filter(None, "she")
 'she'
 ```
 
+#### reduce函数 {#reduce函数}
+
+reduce函数，reduce函数会对参数序列中元素进行累积
+
+```
+reduce(function, sequence[, initial]) -> value
+```
+
+参数说明：
+
+* function:该函数有两个参数
+
+* sequence:序列可以是str，tuple，list
+* initial:固定初始值
+
 
 
