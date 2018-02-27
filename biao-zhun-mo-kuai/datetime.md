@@ -15,11 +15,16 @@ datetime是Python处理日期和时间的标准库。
 
 `datetime.now()`返回当前日期和时间，其类型是`datetime`。
 
-
-
 ### 获取指定日期和时间
 
 要指定某个日期和时间，我们直接用参数构造一个`datetime`：
+
+```
+>>> from datetime import datetime
+>>> dt = datetime(2015, 4, 19, 12, 20) # 用指定日期时间创建datetime
+>>> print(dt)
+2015-04-19 12:20:00
+```
 
 
 
