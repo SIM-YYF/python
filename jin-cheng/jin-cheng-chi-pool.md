@@ -4,8 +4,6 @@
 
 初始化Pool时，可以指定一个最大进程数，当有新的请求提交到Pool中时，如果池还没有满，那么就会创建一个新的进程用来执行该请求；但如果池中的进程数已经达到指定的最大值，那么该请求就会等待，直到池中有进程结束，才会创建新的进程来执行，请看下面的实例：
 
-
-
 #### 非阻塞模式
 
 ```
@@ -44,7 +42,29 @@ print("-----end-----")
 
 * join\(\)：主进程阻塞，等待子进程的退出， 必须在close或terminate之后使用；
 
-
-
 #### 阻塞模式
+
+```
+from multiprocessing import Pool
+import os,time,random
+
+def worker(msg):
+    t_start = time.time()
+    print("%s开始执行,进程号为%d"%(msg,os.getpid()))
+    #random.random()随机生成0~1之间的浮点数
+    time.sleep(random.random()*2) 
+    t_stop = time.time()
+    print(msg,"执行完毕，耗时%0.2f"%(t_stop-t_start))
+
+po=Pool(3) #定义一个进程池，最大进程数3
+for i in range(0,10):
+    po.apply(worker,(i,))
+
+print("----start----")
+po.close() #关闭进程池，关闭后po不再接收新的请求
+po.join() #等待po中所有子进程执行完成，必须放在close语句之后
+print("-----end-----")
+```
+
+
 
