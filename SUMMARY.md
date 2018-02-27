@@ -80,6 +80,7 @@
   * [Queue\(进程间通信\)](jin-cheng/jin-cheng-jian-tong-xin.md)
 * [线程](xian-cheng.md)
   * [threading\(多线程\)](xian-cheng/threading.md)
+  * [Thread类\(创建多线程\)](xian-cheng/thread7c7b28-chuang-jian-duo-xian-7a0b29.md)
 * [协程](yi-bu-io/xie-cheng.md)
 * [网络编程](wang-luo-bian-cheng.md)
 * [django](webfu-wu-qi.md)
