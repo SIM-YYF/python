@@ -37,5 +37,7 @@ datetime是Python处理日期和时间的标准库。
 1429417200.0
 ```
 
+注意Python的timestamp是一个浮点数。如果有小数位，小数位表示毫秒数。
 
+某些编程语言（如Java和JavaScript）的timestamp使用整数表示毫秒数，这种情况下只需要把timestamp除以1000就得到Python的浮点表示方法。
 
