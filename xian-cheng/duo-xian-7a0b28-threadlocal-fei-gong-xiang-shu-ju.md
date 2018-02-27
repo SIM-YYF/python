@@ -35,3 +35,5 @@ Hello, name-2 (in Thread-B)
 
 全局变量local\_school就是一个ThreadLocal对象，每个Thread对它都可以读写student属性，但互不影响。
 
+ThreadLocal最常用的地方就是为每个线程绑定一个数据库连接，HTTP请求，用户身份信息等，这样一个线程的所有调用到的处理函数都可以非常方便地访问这些资源。
+
