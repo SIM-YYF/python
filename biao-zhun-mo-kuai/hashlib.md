@@ -1,4 +1,8 @@
-hashlib模块
+## hashlib模块
+
+
+
+Python的hashlib提供了常见的摘要算法，如MD5，SHA1等等。
 
 
 
