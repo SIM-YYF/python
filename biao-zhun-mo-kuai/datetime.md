@@ -26,5 +26,16 @@ datetime是Python处理日期和时间的标准库。
 2015-04-19 12:20:00
 ```
 
+### datetime转换为timestamp
+
+把一个`datetime`类型转换为timestamp只需要简单调用`timestamp()`方法：
+
+```
+>>> from datetime import datetime
+>>> dt = datetime(2015, 4, 19, 12, 20) # 用指定日期时间创建datetime
+>>> dt.timestamp() # 把datetime转换为timestamp
+1429417200.0
+```
+
 
 
