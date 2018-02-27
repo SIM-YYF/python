@@ -90,7 +90,8 @@
 * [设计模式](she-ji-mo-shi.md)
   * [工厂模式](she-ji-mo-shi/gong-chang-mo-shi.md)
   * [单例模式](she-ji-mo-shi/dan-li-mo-shi.md)
-* [python中特殊事项](pythonzhong-te-shu-shi-xiang.md)
+* [python中开发技巧和注意事项](pythonzhong-te-shu-shi-xiang.md)
   * [a+=a和a=a+a的区别](pythonzhong-te-shu-shi-xiang/a+ahe-a-a-+-a-de-qu-bie.md)
   * [==、is区别](pythonzhong-te-shu-shi-xiang/isqu-bie.md)
+  * [使用OrderedDict实现先进先出的有序字典](pythonzhong-te-shu-shi-xiang/shi-yong-ordereddict-shi-xian-xian-jin-xian-chu-de-you-xu-zi-dian.md)
 
