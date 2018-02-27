@@ -279,13 +279,13 @@ reduce(lambda x, y: x+y, ['aa', 'bb', 'cc'], 'dd')
 >
 > `from functools import reduce`
 
-
-
 #### sorted函数 {#sorted函数}
 
 ```
 sorted(iterable, cmp=None, key=None, reverse=False) --> new sorted list
 ```
+
+![](/assets/Snip20180227_2.png)
 
 
 
