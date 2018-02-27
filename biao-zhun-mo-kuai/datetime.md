@@ -37,7 +37,20 @@ datetime是Python处理日期和时间的标准库。
 1429417200.0
 ```
 
-注意Python的timestamp是一个浮点数。如果有小数位，小数位表示毫秒数。
+注意Python的timestamp是一个浮点数。`如果有小数位，小数位表示毫秒数`。
 
 某些编程语言（如Java和JavaScript）的timestamp使用整数表示毫秒数，这种情况下只需要把timestamp除以1000就得到Python的浮点表示方法。
+
+### timestamp转换为datetime
+
+要把timestamp转换为`datetime`，使用`datetime`提供的`fromtimestamp()`方法：
+
+```
+>>> from datetime import datetime
+>>> t = 1429417200.0
+>>> print(datetime.fromtimestamp(t))
+2015-04-19 12:20:00
+```
+
+注意到timestamp是一个浮点数，它没有时区的概念，而datetime是有时区的。上述转换是在timestamp和本地时间做转换。
 
