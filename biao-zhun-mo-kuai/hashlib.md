@@ -20,8 +20,6 @@ print m.hexdigest() #返回十六进制数字字符串
 d26a53750bc40b38b65a520292f69306
 ```
 
-
-
 另一种常见的摘要算法是SHA1，调用SHA1和调用MD5完全类似：
 
 ```
@@ -36,4 +34,26 @@ print sha1.hexdigest()
 SHA1的结果是160 bit字节，通常用一个40位的16进制字符串表示。
 
 比SHA1更安全的算法是SHA256和SHA512，不过越安全的算法越慢，而且摘要长度更长。
+
+
+
+#### 应用实例 {#应用实例}
+
+用于注册、登录....
+
+
+
+```
+import hashlib
+import datetime
+KEY_VALUE = 'Itcast'
+now = datetime.datetime.now()
+m = hashlib.md5()
+str = '%s%s' % (KEY_VALUE,now.strftime("%Y%m%d"))
+m.update(str.encode('utf-8'))
+value = m.hexdigest()
+print(value)
+```
+
+
 

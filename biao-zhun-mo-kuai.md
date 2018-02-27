@@ -1,6 +1,6 @@
 ### 常用标准库 {#常用标准库}
 
-更多的标准库：http://python.usyiyi.cn/translate/python\_352/library/index.html
+更多的标准库：[http://python.usyiyi.cn/translate/python\_352/library/index.html](http://python.usyiyi.cn/translate/python_352/library/index.html)
 
 | 标准库 | 说明 |
 | :--- | :--- |
@@ -25,13 +25,32 @@
 
 
 
+### 常用扩展库 {#常用扩展库}
 
-
-
-
-
-
-
+| 扩展库 | 说明 |
+| :--- | :--- |
+| requests | 使用的是 urllib3，继承了urllib2的所有特性 |
+| urllib | 基于http的高层库 |
+| scrapy | 爬虫 |
+| beautifulsoup4 | HTML/XML的解析器 |
+| celery | 分布式任务调度模块 |
+| redis | 缓存 |
+| Pillow\(PIL\) | 图像处理 |
+| xlsxwriter | 仅写excle功能,支持xlsx |
+| xlwt | 仅写excle功能,支持xls ,2013或更早版office |
+| xlrd | 仅读excle功能 |
+| elasticsearch | 全文搜索引擎 |
+| pymysql | 数据库连接库 |
+| mongoengine/pymongo | mongodbpython接口 |
+| matplotlib | 画图 |
+| numpy/scipy | 科学计算 |
+| django/tornado/flask | web框架 |
+| xmltodict | xml 转 dict |
+| SimpleHTTPServer | 简单地HTTP Server,不使用Web框架 |
+| gevent | 基于协程的Python网络库 |
+| fabric | 系统管理 |
+| pandas | 数据处理库 |
+| scikit-learn | 机器学习库 |
 
 
 
