@@ -25,8 +25,6 @@ if __name__=='__main__':
 * 创建子进程时，只需要传入一个执行函数和函数的参数，创建一个Process实例，用start\(\)方法启动，这样创建进程比fork\(\)还要简单。
 * join\(\)方法可以等待子进程结束后再继续往下运行，通常用于进程间的同步。
 
-
-
 ## Process语法结构如下： {#process语法结构如下：}
 
 Process\(\[group \[, target \[, name \[, args \[, kwargs\]\]\]\]\]\)
@@ -59,7 +57,6 @@ Process类常用属性：
 
 * pid：当前进程实例的PID值；
 
-  
 实例
 
 ```
@@ -91,7 +88,7 @@ print("进程ID：%s"%os.getpid())
 #因为worker_1方法就一个interval参数，这里传递一个整数2给它，
 #如果不指定name参数，默认的进程对象名称为Process-N，N为一个递增的整数
 p1=Process(target=worker_1,args=(2,))
-p2=Process(target=worker_2,name="python",args=(1,))
+p2=Process(target=worker_2,name="pname",args=(1,))
 
 #使用"进程对象名称.start()"来创建并执行一个子进程，
 #这两个进程对象在start后，就会分别去执行worker_1和worker_2方法中的内容
