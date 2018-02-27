@@ -74,6 +74,7 @@
 * [工具函数库\(functools\)](gong-ju-han-shu-5e9328-functools.md)
 * [进程](jin-cheng.md)
   * [fork](jin-cheng/fork.md)
+  * [multiprocessing](jin-cheng/multiprocessing.md)
 * [线程](xian-cheng.md)
 * [协程](yi-bu-io/xie-cheng.md)
 * [网络编程](wang-luo-bian-cheng.md)
