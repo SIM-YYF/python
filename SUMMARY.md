@@ -64,7 +64,8 @@
     * [reduce](nei-jian-shu-xing-he-han-shu/han-shu/reduce.md)
     * [sorted](nei-jian-shu-xing-he-han-shu/han-shu/sorted.md)
 * [工具函数库\(functools\)](gong-ju-han-shu-5e9328-functools.md)
-* [标准模块](biao-zhun-mo-kuai.md)
+* [标准模块\(库\)](biao-zhun-mo-kuai.md)
+  * hashlib
 * [进程](jin-cheng.md)
 * [线程](xian-cheng.md)
 * [协程](yi-bu-io/xie-cheng.md)
