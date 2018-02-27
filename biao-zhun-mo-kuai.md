@@ -1,4 +1,4 @@
-### 常用标准库 {#常用标准库}
+### 常用标准 {#常用标准库}
 
 更多的标准库：[http://python.usyiyi.cn/translate/python\_352/library/index.html](http://python.usyiyi.cn/translate/python_352/library/index.html)
 
@@ -22,8 +22,6 @@
 | socket | 标准的 BSD Sockets API |
 | shutil | 文件和目录管理 |
 | glob | 基于文件通配符搜索 |
-
-
 
 ### 常用扩展库 {#常用扩展库}
 
