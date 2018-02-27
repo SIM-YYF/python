@@ -273,5 +273,11 @@ reduce(lambda x, y: x+y, ['aa', 'bb', 'cc'], 'dd')
 'ddaabbcc'
 ```
 
+注意：
+
+> 在Python3里,reduce函数已经被从全局名字空间里移除了, 它现在被`放置在fucntools模块里`用的话要先引入：
+>
+> `from functools import reduce`
+
 
 
