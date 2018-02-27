@@ -27,7 +27,7 @@ class QueueManager(BaseManager):
 QueueManager.register('get_task_queue', callable=lambda: task_queue)
 QueueManager.register('get_result_queue', callable=lambda: result_queue)
 # 绑定端口5000, 设置验证码'abc':
-manager = QueueManager(address=('', 5000), authkey=b'abc')
+manager = QueueManager(address=('', 5000), authkey='abc'.encode('utf-8'))
 # 启动Queue:
 manager.start()
 # 获得通过网络访问的Queue对象:
@@ -70,7 +70,7 @@ QueueManager.register('get_result_queue')
 server_addr = '127.0.0.1'
 print('Connect to server %s...' % server_addr)
 # 端口和验证码注意保持与task_master.py设置的完全一致:
-m = QueueManager(address=(server_addr, 5000), authkey=b'abc')
+m = QueueManager(address=(server_addr, 5000), authkey='abc'.encode('utf-8'))
 # 从网络连接:
 m.connect()
 # 获取Queue的对象:
@@ -147,8 +147,6 @@ Result: 7866 * 7866 = 61873956
 Queue对象存储在哪？注意到`task_worker.py`中根本没有创建Queue的代码，所以，Queue对象存储在`task_master.py`进程中：
 
 ![](/assets/Snip20180227_6.png)
-
-
 
 而`Queue`之所以能通过网络访问，就是通过`QueueManager`实现的。由于`QueueManager`管理的不止一个`Queue`，所以，要给每个`Queue`的网络调用接口起个名字，比如`get_task_queue`。
 
