@@ -16,5 +16,5 @@ OrderedDict：是collections模块提供的。
 OrderedDict([('a', 1), ('b', 2), ('c', 3)])
 ```
 
-
+注意，`OrderedDict`的Key会按照插入的顺序排列，不是Key本身排序：
 
