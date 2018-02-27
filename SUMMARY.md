@@ -79,6 +79,7 @@
   * [进程池Pool](jin-cheng/jin-cheng-chi-pool.md)
   * [Queue\(进程间通信\)](jin-cheng/jin-cheng-jian-tong-xin.md)
 * [线程](xian-cheng.md)
+  * [threading\(多线程\)](xian-cheng/threading.md)
 * [协程](yi-bu-io/xie-cheng.md)
 * [网络编程](wang-luo-bian-cheng.md)
 * [django](webfu-wu-qi.md)
