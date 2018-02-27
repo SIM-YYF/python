@@ -16,8 +16,6 @@ collections是Python内建的一个集合模块，提供了许多有用的集合
 
 这样一来，我们用`namedtuple`可以很方便地定义一种数据类型，它具备tuple的不变性，又可以根据属性来引用，使用十分方便。
 
-
-
 ### deque
 
 使用`list`存储数据时，按索引访问元素很快，但是插入和删除元素就很慢了，因为`list`是线性存储，数据量大的时候，插入和删除效率很低。
@@ -34,4 +32,12 @@ deque(['y', 'a', 'b', 'c', 'x'])
 ```
 
 `deque`除了实现list的`append()`和`pop()`外，还支持`appendleft()`和`popleft()`，这样就可以非常高效地往头部添加或删除元素。
+
+
+
+### defaultdict
+
+使用`dict`时，如果引用的Key不存在，就会抛出`KeyError`。如果希望key不存在时，返回一个默认值，就可以用`defaultdict`：
+
+
 
