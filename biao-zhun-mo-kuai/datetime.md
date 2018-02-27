@@ -54,3 +54,16 @@ datetime是Python处理日期和时间的标准库。
 
 注意到timestamp是一个浮点数，它没有时区的概念，而datetime是有时区的。上述转换是在timestamp和本地时间做转换。
 
+### str转换为datetime
+
+很多时候，用户输入的日期和时间是字符串，要处理日期和时间，首先必须把str转换为datetime。转换方法是通过`datetime.strptime()`实现，需要一个日期和时间的格式化字符串：
+
+```
+>>> from datetime import datetime
+>>> cday = datetime.strptime('2015-6-1 18:19:59', '%Y-%m-%d %H:%M:%S')
+>>> print(cday)
+2015-06-01 18:19:59
+```
+
+
+
