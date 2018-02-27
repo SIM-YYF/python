@@ -195,6 +195,7 @@ map(function, sequence[, sequence, ...]) -> list
 * function:是一个函数
 
 * sequence:是一个或多个序列,取决于function需要几个参数
+
 * 返回值是一个list
 
 ```
@@ -219,9 +220,11 @@ print(list(l3))
 
 参数序列中的每一个元素分别调用function函数，返回包含每次function函数返回值的list。
 
+#### filter函数 {#filter函数}
 
-
-
+```
+filter(function or None, sequence) -> list, tuple, or string
+```
 
 
 
