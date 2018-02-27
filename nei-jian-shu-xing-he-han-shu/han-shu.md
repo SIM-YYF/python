@@ -259,7 +259,19 @@ reduce(function, sequence[, initial]) -> value
 * function:该函数有两个参数
 
 * sequence:序列可以是str，tuple，list
+
 * initial:固定初始值
+
+```
+reduce(lambda x, y: x+y, [1,2,3,4])
+10
+
+reduce(lambda x, y: x+y, [1,2,3,4], 5)
+15
+
+reduce(lambda x, y: x+y, ['aa', 'bb', 'cc'], 'dd')
+'ddaabbcc'
+```
 
 
 
