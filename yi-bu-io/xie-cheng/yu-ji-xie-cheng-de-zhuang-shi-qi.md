@@ -1,6 +1,6 @@
 如果不预激，那么协程没什么用。调用coroutine.send\(x\)之前，记住一定要调用next\(coroutine \)。为了简化协程的用法，有时会使用一个预激装饰器。
 
-预激装饰器的定义：
+#### 预激装饰器的定义：
 
     from functools import wraps
 
@@ -21,7 +21,7 @@
 ➌预激生成器。  
 ➍返回生成器
 
-使用预激装饰：
+#### 使用预激装饰：
 
 ```
 “”“
@@ -56,6 +56,5 @@ def averager():
 ➌可以立即开始把值发给coro\_avg——这正是coroutine装饰器的目的。
 
 ➍导入coroutine装饰器。  
-➎把装饰器应用到averager函数上。  
-
+➎把装饰器应用到averager函数上。
 
