@@ -69,11 +69,30 @@ StopIteration: Result(count=3, average=15.5)
 
 除了以上方式，python提供了yield from结构会在内部自动捕获StopIteration异常，并返回值。
 
-
-
 #### 使用yield from结构获取返回值
 
+yield from是全新的语言结构，yield from可用于简化for循环中的yield表达式。
 
+比如：
+
+```
+>>> def gen():
+...   for c in 'AB':
+          yield c
+      for i in range(1,3):
+          yield i
+...
+>>> list(gen())
+['A', 'B', 1, 2]
+     
+可以改写为:
+>>> def gen():
+...   yield from 'AB'
+...   yield from range(1, 3)
+...
+>>> list(gen())
+['A', 'B', 1, 2]
+```
 
 
 
