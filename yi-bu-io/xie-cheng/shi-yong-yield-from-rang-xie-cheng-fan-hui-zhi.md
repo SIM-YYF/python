@@ -1,3 +1,5 @@
+#### 获取返回值第一种方式：捕获StopIteration异常，获取averager返回的值
+
 首先：
 
 定义一个求平均值的协程，让它返回一个结果
@@ -62,6 +64,16 @@ StopIteration: Result(count=3, average=15.5)
      >>> result
      Result(count=3, average=15.5)
 ```
+
+通过捕获StopIteration异常，最终获取了协程了返回值。
+
+除了以上方式，python提供了yield from结构会在内部自动捕获StopIteration异常，并返回值。
+
+
+
+#### 使用yield from结构获取返回值
+
+
 
 
 
