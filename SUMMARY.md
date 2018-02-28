@@ -118,4 +118,5 @@
   * [==、is区别](pythonzhong-te-shu-shi-xiang/isqu-bie.md)
   * [使用OrderedDict实现先进先出的有序字典](pythonzhong-te-shu-shi-xiang/shi-yong-ordereddict-shi-xian-xian-jin-xian-chu-de-you-xu-zi-dian.md)
   * [使用Counter快速统计字符串的中出现个数](pythonzhong-te-shu-shi-xiang/shi-yong-counter-kuai-su-tong-ji-zi-fu-chuan-de-zhong-chu-xian-ge-shu.md)
+  * [使用reduce计算阶乘](pythonzhong-te-shu-shi-xiang/shi-yong-reduce-ji-suan-jie-cheng.md)
 
