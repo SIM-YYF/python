@@ -107,15 +107,13 @@ yield from 后面链接的是可迭代对象
 ```
      >>> def chain(*iterables):
      ...     for it in iterables:
-     ...         yield from it
+     ...         yield from it # ’ABC‘ 和 （0,1,2）两个可迭代对象
      ...
      >>> s = 'ABC'
      >>> t = tuple(range(3))
      >>> list(chain(s, t))
      ['A', 'B', 'C', 0, 1, 2]
 ```
-
-
 
 
 
