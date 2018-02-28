@@ -38,3 +38,22 @@ File "<stdin>", line 1, in <module> StopIteration
 
 ➏getgeneratorstate函数指明，处于GEN\_CLOSED状态\(即协程执行结束\)。
 
+
+
+**关键的一点是，**协程在yield关键字所在的位置暂停执行。前面说过，在赋值语句中，=右边的代码在赋值之前执行。因此，对于b = yield a这行代码来说，等到客户端代码再 激活协程时才会设定b的值。
+
+
+
+
+
+**simple\_coro2协程的执行过程分为3个阶段。**
+
+如图所示。
+
+![](/assets/Snip20180228_1.png)
+
+\(1\)调用next\(my\_coro2\)，打印第一个消息，然后执行yield a，产出数字14。
+
+\(2\)调用my\_coro2.send\(28\)，把28赋值给b，打印第二个消息，然后执行yield a + b，产出数字42。  
+\(3\)调用my\_coro2.send\(99\)，把99赋值给c，打印第三个消息，协程终止。
+
