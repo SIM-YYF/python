@@ -1,6 +1,6 @@
 如果不预激，那么协程没什么用。调用coroutine.send\(x\)之前，记住一定要调用next\(coroutine \)。为了简化协程的用法，有时会使用一个预激装饰器。
 
-示例中的coroutine装 饰器是一例：
+预激装饰器的定义：
 
     from functools import wraps
 
@@ -20,4 +20,36 @@
 
 ➌预激生成器。  
 ➍返回生成器
+
+
+
+使用预激装饰：
+
+```
+“”“
+用于计算移动平均值的协程
+>>> coro_avg = averager() ➊
+>>> from inspect import getgeneratorstate >>> getgeneratorstate(coro_avg) ➋ 'GEN_SUSPENDED'
+>>> coro_avg.send(10) ➌
+10.0
+>>> coro_avg.send(30)
+20.0
+>>> coro_avg.send(5)
+15.0
+"""
+
+from coroutil import coroutine ➍
+@coroutine ➎
+def averager(): ➏
+         total = 0.0
+         count = 0
+         average = None
+         while True:
+             term = yield average
+             total += term
+             count += 1
+             average = total/count
+```
+
+
 
