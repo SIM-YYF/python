@@ -21,8 +21,6 @@
 ➌预激生成器。  
 ➍返回生成器
 
-
-
 使用预激装饰：
 
 ```
@@ -40,7 +38,7 @@
 
 from coroutil import coroutine ➍
 @coroutine ➎
-def averager(): ➏
+def averager(): 
          total = 0.0
          count = 0
          average = None
@@ -51,5 +49,13 @@ def averager(): ➏
              average = total/count
 ```
 
+➊调用averager\(\)函数创建一个生成器对象，在coroutine装饰器的primer函数中已经 预激了这个生成器。
+
+➋getgeneratorstate函数指明，处于GEN\_SUSPENDED状态，因此这个协程已经准备好，可 以接收值了。
+
+➌可以立即开始把值发给coro\_avg——这正是coroutine装饰器的目的。
+
+➍导入coroutine装饰器。  
+➎把装饰器应用到averager函数上。  
 
 
