@@ -68,5 +68,7 @@ itemgetter的常见用途:根据元组的某个字段给元组列表排序。
 
 ### operator.attrgetter函数
 
+attrgetter与itemgetter作用类似，它创建的函数根据名称提取对象的属性。
 
+如果把 多个属性名传给attrgetter，它也会返回提取的值构成的元组。
 
