@@ -141,14 +141,14 @@ def averager(): ➊
              average = total/count
 
         return Result(count, average) ➍
-        
-        
+
+
 # 委派生成器
 def grouper(results, key): ➎
     while True: ➏
         results[key] = yield from averager() ➐
-        
-        
+
+
 # 客户端代码，即调用方 
 def main(data): ➑
      results = {}
@@ -156,12 +156,13 @@ def main(data): ➑
             group = grouper(results, key) ➒ 
             next(group) ➓
             for value in values:
-                group.send(value) group.send(None) # 重要!
-                
+                group.send(value) <11>
+                group.send(None) # 重要！<12>
+
     # print(results) # 如果要调试，去掉注释 
 
-    
-    
+
+
 data = {
          'girls;kg':
              [40.9, 38.5, 44.3, 42.2, 45.2, 41.7, 44.5, 38.0, 40.6, 44.5],
@@ -177,15 +178,23 @@ if __name__ == '__main__':
          main(data)
 ```
 
+➊与示例16-13中的averager协程一样。这里作为子生成器使用。  
+➋main函数中的客户代码发送的各个值绑定到这里的term变量上。
 
+➌至关重要的终止条件。如果不这么做，使用yield from调用这个协程的生成器会永远阻塞。  
+➍返回的Result会成为grouper函数中yield from表达式的值。
 
+➎grouper是委派生成器。
 
+➏这个循环每次迭代时会新建一个averager实例;每个实例都是作为协程使用的生成器 对象。
 
+➐grouper发送的每个值都会经由yield from处理，通过管道传给averager实例。grouper会在yield from表达式处暂停，等待averager实例处理客户端发来的值。averager实例运行完毕后，返回的值绑定到results\[key\]上。while循环会不断创建averager实例，处理更多的值。
 
+➑main函数是客户端代码，用PEP 380定义的术语来说，是“调用方”。这是驱动一切的 函数。
 
+➒group是调用grouper函数得到的生成器对象，传给grouper函数的第一个参数是results，用于收集结果;第二个参数是某个键。group作为协程使用。
 
-
-
-
-
+➓预激group协程。  
+ &lt;11&gt;把各个value传给grouper。传入的值最终到达averager函数中term = yield那一行;grouper永远不知道传入的值是什么。  
+ &lt;12&gt;把None传入grouper，导致当前的averager实例终止，也让grouper继续运行，再创 建一个averager实例，处理下一组值。
 
