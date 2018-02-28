@@ -42,5 +42,27 @@ sorted(iterable, cmp=None, key=None, reverse=False) --> new sorted list
 [('john', 'A', 15), ('jane', 'B', 12), ('dave', 'B', 10)]
 ```
 
+根据单词长度给一个列表排序:
+
+```
+>>> fruits = ['strawberry', 'fig', 'apple', 'cherry', 'raspberry', 'banana']
+>>> sorted(fruits, key=len)
+     ['fig', 'apple', 'cherry', 'banana', 'raspberry', 'strawberry']
+>>>
+```
+
+根据反向拼写给一个单词列表排序:
+
+```
+>>> fruits = ['strawberry', 'fig', 'apple', 'cherry', 'raspberry', 'banana']
+>>> def reverse(word):
+...     return word[::-1]
+>>> reverse('testing')
+'gnitset'
+>>> sorted(fruits, key=reverse)
+['banana', 'apple', 'fig', 'raspberry', 'strawberry', 'cherry']
+>>>
+```
+
 
 

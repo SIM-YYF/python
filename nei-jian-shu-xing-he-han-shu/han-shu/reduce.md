@@ -33,3 +33,19 @@ reduce(lambda x, y: x+y, ['aa', 'bb', 'cc'], 'dd')
 
 
 
+使用reduce和sum计算0~99之和:
+
+```
+>>> from functools import reduce ➊
+>>> from operator import add ➋
+>>> reduce(add, range(100)) ➌
+4950
+>>> sum(range(100)) ➍ 4950
+>>>
+```
+
+➊从Python 3.0起，reduce不再是内置函数了。  
+➋导入add，以免创建一个专求两数之和的函数。  
+➌计算0~99之和。  
+➍使用sum做相同的求和;无需导入或创建求和函数。
+
