@@ -25,8 +25,7 @@ class BingoCage:
 ➌起主要作用的方法。  
 ➍如果self.\_items为空，抛出异常，并设定错误消息。
 
-➎bingo.pick\(\)的快捷方式是bingo\(\)。  
-
+➎bingo.pick\(\)的快捷方式是bingo\(\)。
 
 * > 注意，bingo实例可以作为函数调用，因为类中实现\_\_call\_\_方法
 
