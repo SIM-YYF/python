@@ -48,3 +48,20 @@ StopIteration: Result(count=3, average=15.5)
 
 解决： 捕获StopIteration异常，获取averager返回的值
 
+```
+     >>> coro_avg = averager()
+     >>> next(coro_avg)
+     >>> coro_avg.send(10)
+     >>> coro_avg.send(30)
+     >>> coro_avg.send(6.5)
+     >>> try:
+     ...     coro_avg.send(None)
+     ... except StopIteration as exc: # 捕获异常
+     ...     result = exc.value # 获取返回结果
+     ...
+     >>> result
+     Result(count=3, average=15.5)
+```
+
+
+
