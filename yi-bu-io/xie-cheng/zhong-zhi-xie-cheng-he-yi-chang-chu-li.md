@@ -15,7 +15,7 @@ def demo_finally():
                 print('*** DemoException handled. Continuing...')
             else:
                 print('-> coroutine received: {!r}'.format(x))
-    finally:
+    finally: # 不管协程如何结束，做清理工作。
         print('-> coroutine ending')
 
 
