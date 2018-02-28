@@ -92,6 +92,7 @@
   * [使用生成器定义协程](yi-bu-io/xie-cheng/yong-zuo-xie-cheng-de-sheng-cheng-qi.md)
   * [协程中四种状态](yi-bu-io/xie-cheng/xie-cheng-zhong-si-zhong-zhuang-tai.md)
   * [解析协程执行流程](yi-bu-io/xie-cheng/jie-xi-xie-cheng-zhi-xing-liu-cheng.md)
+  * [预激协程的装饰器](yi-bu-io/xie-cheng/yu-ji-xie-cheng-de-zhuang-shi-qi.md)
 * [网络编程](wang-luo-bian-cheng.md)
 * [django](webfu-wu-qi.md)
   * [1](webfu-wu-qi/1.md)
