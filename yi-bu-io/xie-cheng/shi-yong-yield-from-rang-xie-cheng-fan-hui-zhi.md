@@ -86,6 +86,7 @@ yield from是全新的语言结构，yield from可用于简化for循环中的yie
 ['A', 'B', 1, 2]
 
 # 可以改写为:
+
 >>> def gen():
 ...   yield from 'AB'
 ...   yield from range(1, 3)
