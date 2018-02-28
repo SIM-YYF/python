@@ -66,5 +66,7 @@ itemgetter的常见用途:根据元组的某个字段给元组列表排序。
      >>>
 ```
 
+### operator.attrgetter函数
+
 
 
