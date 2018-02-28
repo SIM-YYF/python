@@ -99,7 +99,7 @@ yield from是全新的语言结构，yield from可用于简化for循环中的yie
 强调：
 
 ```
-yield from 后面链接的是可迭代对象
+yield from 后面链接的是可迭代对象.实际意义：底层会调用iter(可迭代对象)转换为可迭代生成器。
 ```
 
 使用yield from链接可迭代的对象：
