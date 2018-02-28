@@ -88,8 +88,8 @@ yield from是全新的语言结构，yield from可用于简化for循环中的yie
 # 可以改写为:
 
 >>> def gen():
-...   yield from 'AB' # yield from 后面链接的是可迭代对象
-...   yield from range(1, 3) # yield from 后面链接的是可迭代对象
+...   yield from 'AB' # yield from 后面链接的是可迭代对象。实际意义：底层会调用iter(可迭代对象)转换为可迭代生成器。
+...   yield from range(1, 3) # yield from 后面链接的是可迭代对象。实际意义：底层会调用iter(可迭代对象)转换为可迭代生成器。
 
 ...
 >>> list(gen())
