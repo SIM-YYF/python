@@ -121,3 +121,22 @@ Metropolis(name='Tokyo', cc='JP', pop=36.933, coord=LatLong(lat=35.689722, long=
 
 ➐使用标号➎中定义的attrgetter，只显示城市名和纬度。
 
+
+
+### operator.methodcaller函数
+
+methodcaller。它的作用与attrgetter和itemgetter类似，它会自行创建函数。methodcaller创建的函数会在对象上调用参数指 定的方法，如示例所示:
+
+```
+      >>> from operator import methodcaller
+      >>> s = 'The time has come'
+      >>> upcase = methodcaller('upper')
+      >>> upcase(s)
+      'THE TIME HAS COME'
+      >>> hiphenate = methodcaller('replace', ' ', '-')
+      >>> hiphenate(s)
+      'The-time-has-come'
+```
+
+
+
