@@ -51,3 +51,20 @@ itemgetter的常见用途:根据元组的某个字段给元组列表排序。
 
 其实，itemgetter\(1\)的 作用与lambda fields: fields\[1\]一样:创建一个接受集合的函数，返回索引位1上的元 素。
 
+如果把多个参数传给itemgetter，它构建的函数会返回提取的值构成的元组:
+
+```
+     >>> cc_name = itemgetter(1, 0)
+     >>> for city in metro_data:
+     ...     print(cc_name(city))
+     ...
+     ('JP', 'Tokyo')
+     ('IN', 'Delhi NCR')
+     ('MX', 'Mexico City')
+     ('US', 'New York-Newark')
+     ('BR', 'Sao Paulo')
+     >>>
+```
+
+
+
