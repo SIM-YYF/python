@@ -94,6 +94,7 @@
   * [解析协程执行流程](yi-bu-io/xie-cheng/jie-xi-xie-cheng-zhi-xing-liu-cheng.md)
   * [预激协程的装饰器](yi-bu-io/xie-cheng/yu-ji-xie-cheng-de-zhuang-shi-qi.md)
   * [终止协程和异常处理](yi-bu-io/xie-cheng/zhong-zhi-xie-cheng-he-yi-chang-chu-li.md)
+  * [使用yield from让协程返回值](yi-bu-io/xie-cheng/shi-yong-yield-from-rang-xie-cheng-fan-hui-zhi.md)
 * [网络编程](wang-luo-bian-cheng.md)
 * [django](webfu-wu-qi.md)
   * [1](webfu-wu-qi/1.md)
