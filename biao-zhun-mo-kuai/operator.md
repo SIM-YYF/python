@@ -72,8 +72,6 @@ attrgetter与itemgetter作用类似，它创建的函数根据名称提取对象
 
 如果把 多个属性名传给attrgetter，它也会返回提取的值构成的元组。此外，如果参数名中包 含.\(点号\)，attrgetter会深入嵌套对象，获取指定的属性。
 
-
-
 示例：定义一个namedtuple，名为metro\_data\(与示例5-23中的列表相同\)，演示使 用attrgetter处理它：
 
 ```
@@ -97,7 +95,8 @@ Metropolis(name='Tokyo', cc='JP', pop=36.933, coord=LatLong(lat=35.689722, long=
 >>> metro_areas[0].coord.lat # ➍
 35.689722
 
->>> from operator import attrgetter                        
+>>> from operator import attrgetter
+
 >>> name_lat = attrgetter('name','coord.lat') #5
 >>>
 >>> for city in sorted(metro_data, key=attrgetter('coord.lat')) #6
@@ -114,10 +113,11 @@ Metropolis(name='Tokyo', cc='JP', pop=36.933, coord=LatLong(lat=35.689722, long=
 ➋再定义Metropolis。  
 ➌使用Metropolis实例构建metro\_areas列表;注意，我们使用嵌套的元组拆包提取
 
-\(lat, long\)，然后使用它们构建LatLong，作为Metropolis的coord属性。➍深入metro\_areas\[0\]，获取它的纬度。  
+\(lat, long\)，然后使用它们构建LatLong，作为Metropolis的coord属性。
+
+➍深入metro\_areas\[0\]，获取它的纬度。  
 ➎定义一个attrgetter，获取name属性和嵌套的coord.lat属性。  
 ➏再次使用attrgetter，按照纬度排序城市列表。
 
-➐使用标号➎中定义的attrgetter，只显示城市名和纬度。  
-
+➐使用标号➎中定义的attrgetter，只显示城市名和纬度。
 
