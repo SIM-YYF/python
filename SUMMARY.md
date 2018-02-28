@@ -25,7 +25,7 @@
   * [函数\(全局和局部变量\)](han-shu/han-657028-quan-ju-he-ju-bu-bian-91cf29.md)
   * [匿名函数](han-shu/ni-ming-han-shu.md)
   * [递归函数](han-shu/di-gui-han-shu.md)
-  * [函数类对象\(把对象作为函数调用\)](han-shu/han-shu-lei-dui-8c6128-ba-dui-xiang-zuo-wei-han-shu-diao-752829.md)
+  * [函数类对象\(把对象视为函数调用\)](han-shu/han-shu-lei-dui-8c6128-ba-dui-xiang-zuo-wei-han-shu-diao-752829.md)
 * [IO/文件操作](wen-jian-cao-zuo.md)
   * [文件打开和关闭](wen-jian-cao-zuo/wen-jian-da-kai-he-guan-bi.md)
   * [文件的读写](wen-jian-cao-zuo/wen-jian-de-du-xie.md)
