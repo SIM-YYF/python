@@ -115,5 +115,77 @@ yield from 后面链接的是可迭代对象
      ['A', 'B', 'C', 0, 1, 2]
 ```
 
+##### yield from 后面链接不仅可以是可迭代对象，同时可以是可迭代的生成器函数。
+
+##### 因此，yield from 大致的语言结构为：
+
+![](/assets/Snip20180228_2.png)
+
+委派生成器在yield from表达式处暂停时，调用方可以直接把数据发给子生成器，子生成 器再把产出的值发给调用方。子生成器返回之后，解释器会抛出StopIteration异常，并 把返回值附加到异常对象上，此时委派生成器会恢复。
+
+```
+from collections import namedtuple
+
+Result = namedtuple('Result', 'count average')
+# 子生成器
+def averager(): ➊
+         total = 0.0
+         count = 0
+         average = None
+         while True:
+            term = yield ➋
+            if term is None: ➌
+                 break
+             total += term
+             count += 1
+             average = total/count
+
+        return Result(count, average) ➍
+        
+        
+# 委派生成器
+def grouper(results, key): ➎
+    while True: ➏
+        results[key] = yield from averager() ➐
+        
+        
+# 客户端代码，即调用方 
+def main(data): ➑
+     results = {}
+     for key, values in data.items():
+            group = grouper(results, key) ➒ 
+            next(group) ➓
+            for value in values:
+                group.send(value) group.send(None) # 重要!
+                
+    # print(results) # 如果要调试，去掉注释 
+
+    
+    
+data = {
+         'girls;kg':
+             [40.9, 38.5, 44.3, 42.2, 45.2, 41.7, 44.5, 38.0, 40.6, 44.5],
+         'girls;m':
+             [1.6, 1.51, 1.4, 1.3, 1.41, 1.39, 1.33, 1.46, 1.45, 1.43],
+         'boys;kg':
+             [39.0, 40.8, 43.2, 40.8, 43.1, 38.6, 41.4, 40.6, 36.3],
+         'boys;m':
+             [1.38, 1.5, 1.32, 1.25, 1.37, 1.48, 1.25, 1.49, 1.46],
+}
+
+if __name__ == '__main__':
+         main(data)
+```
+
+
+
+
+
+
+
+
+
+
+
 
 
