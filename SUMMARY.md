@@ -120,4 +120,5 @@
   * [单例模式](she-ji-mo-shi/dan-li-mo-shi.md)
 * [python开发技巧](pythonkai-fa-ji-qiao.md)
   * [增量赋值\(+=、\*=\)](pythonkai-fa-ji-qiao/zeng-liang-fu-503c28+3d-30013d29.md)
+  * [==、is 区别](pythonkai-fa-ji-qiao/is-qu-bie.md)
 
