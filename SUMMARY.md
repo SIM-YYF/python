@@ -13,6 +13,7 @@
   * [deque](lie-biao/deque.md)
 * [列表推导式](lie-biao-tui-dao-shi.md)
 * [元组和拆包](yuan-zu-he-chai-bao.md)
+* [元组和列表方法和属性](yuan-zu-he-lie-biao-fang-fa-he-shu-xing.md)
 * [切片](chang-shi/qie-pian.md)
 * [排序](pai-xu.md)
 * [字典](zi-dian.md)
@@ -117,5 +118,5 @@
 * [设计模式](she-ji-mo-shi.md)
   * [工厂模式](she-ji-mo-shi/gong-chang-mo-shi.md)
   * [单例模式](she-ji-mo-shi/dan-li-mo-shi.md)
-* [docker容器云](dockerrong-qi-yun.md)
+* [元组和列表方法和属性](yuan-zu-he-lie-biao-fang-fa-he-shu-xing.md)
 

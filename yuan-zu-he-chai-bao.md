@@ -66,7 +66,7 @@ In [48]: metro_areas = [
     ('New York-Newark', 'US', 20.104, (40.808611, -74.020386)), 
     ('Sao Paulo', 'BR', 19.649, (-23.547778, -46.635833)),
    ]
-    
+
 In [50]: for name, cc, pop, (lat,long) in metro_areas: # 嵌套拆包
     ...:     print(name, cc,pop,(lat,long))
     ...:
@@ -75,8 +75,63 @@ Delhi NCR IN 21.935 (28.613889, 77.208889)
 Mexico City MX 20.142 (19.433333, -99.133333)
 New York-Newark US 20.104 (40.808611, -74.020386)
 Sao Paulo BR 19.649 (-23.547778, -46.635833)
+```
+
+### 具名元组 
+
+collections.namedtuple是一个工厂函数，它可以用来构建一个带字段名的元组和一个有名字的类。
+
+新建一个Car类：
 
 ```
+Card = collections.namedtuple('Card', ['rank', 'suit'])
+```
+
+定义和使用具名元组：
+
+```
+>>> from collections import namedtuple
+>>> City = namedtuple('City', 'name country population coordinates') ➊ 
+>>> tokyo = City('Tokyo', 'JP', 36.933, (35.689722, 139.691667)) ➋
+>>> tokyo
+City(name='Tokyo', country='JP', population=36.933, coordinates=(35.689722, 139.691667))
+>>> tokyo.population ➌
+36.933
+>>> tokyo.coordinates
+(35.689722, 139.691667)
+>>> tokyo[1]
+'JP'
+```
+
+➊创建一个具名元组需要两个参数，一个是类名，另一个是类的各个字段的名字。后者可 以是由数个字符串组成的可迭代对象，或者是由空格分隔开的字段名组成的字符串。
+
+➋存放在对应字段里的数据要以一串参数的形式传入到构造函数中\(注意，元组的构造函 数却只接受单一的可迭代对象\)。
+
+➌你可以通过字段名或者位置来获取一个字段的信息。
+
+
+
+### 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
