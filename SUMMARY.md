@@ -118,5 +118,6 @@
 * [设计模式](she-ji-mo-shi.md)
   * [工厂模式](she-ji-mo-shi/gong-chang-mo-shi.md)
   * [单例模式](she-ji-mo-shi/dan-li-mo-shi.md)
-* [元组和列表方法和属性](yuan-zu-he-lie-biao-fang-fa-he-shu-xing.md)
+* [python开发技巧](pythonkai-fa-ji-qiao.md)
+  * [增量赋值\(+=、\*=\)](pythonkai-fa-ji-qiao/zeng-liang-fu-503c28+3d-30013d29.md)
 
