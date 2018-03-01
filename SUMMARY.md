@@ -123,4 +123,5 @@
   * [==、is 区别](pythonkai-fa-ji-qiao/is-qu-bie.md)
   * [Counter统计字符出现的个数](pythonkai-fa-ji-qiao/countertong-ji-zi-fu-chu-xian-de-ge-shu.md)
   * [OrderedDict保存字典有序](pythonkai-fa-ji-qiao/ordereddictbao-cun-zi-dian-you-xu.md)
+  * [使用reduce和operator.mul函数计算阶乘](pythonkai-fa-ji-qiao/shi-yong-reduce-he-operator-mul-han-shu-ji-suan-jie-cheng.md)
 
