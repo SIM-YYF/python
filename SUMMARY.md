@@ -119,5 +119,4 @@
 * [设计模式](she-ji-mo-shi.md)
   * [工厂模式](she-ji-mo-shi/gong-chang-mo-shi.md)
   * [单例模式](she-ji-mo-shi/dan-li-mo-shi.md)
-* [列表和deque的方法和属性](lie-biao-he-deque-de-fang-fa-he-shu-xing.md)
 
