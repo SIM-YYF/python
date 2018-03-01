@@ -4,6 +4,10 @@
 
 
 
+_**生成器表达式的语法跟列表推导差不多，只不过把方括号换成圆括号而已。**_
+
+
+
 ```
 In [24]: symbols = '$¢£¥€¤'
 
@@ -18,5 +22,22 @@ In [36]: list(ord(symbol) for symbol in symbols) # 转换为列表
 Out[36]: [36, 162, 163, 165, 8364, 164]
 ```
 
+使用生成器表达式计算笛卡儿积：
+
+```
+>>> colors = ['black', 'white']
+>>> sizes = ['S', 'M', 'L']
+>>> for tshirt in ('%s %s' % (c, s) for c in colors for s in sizes): ➊ 
+        ... print(tshirt)
+...
+black S
+black M
+black L
+white S
+white M
+white L
+```
+
+➊生成器表达式逐个产出元素，从来不会一次性产出一个含有6个T恤样式的列表。  
 
 
