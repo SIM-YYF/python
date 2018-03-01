@@ -85,6 +85,7 @@
   * [Process](jin-cheng/process.md)
   * [进程池Pool](jin-cheng/jin-cheng-chi-pool.md)
   * [Queue\(进程间通信\)](jin-cheng/jin-cheng-jian-tong-xin.md)
+  * [多进程拷贝文件](jin-cheng/duo-jin-cheng-kao-bei-wen-jian.md)
 * [分布式进程](fen-bu-shi-jin-cheng.md)
 * [线程](xian-cheng.md)
   * [threading\(多线程\)](xian-cheng/threading.md)
