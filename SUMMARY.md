@@ -121,4 +121,6 @@
 * [python开发技巧](pythonkai-fa-ji-qiao.md)
   * [增量赋值\(+=、\*=\)](pythonkai-fa-ji-qiao/zeng-liang-fu-503c28+3d-30013d29.md)
   * [==、is 区别](pythonkai-fa-ji-qiao/is-qu-bie.md)
+  * [Counter统计字符出现的个数](pythonkai-fa-ji-qiao/countertong-ji-zi-fu-chu-xian-de-ge-shu.md)
+  * [OrderedDict保存字典有序](pythonkai-fa-ji-qiao/ordereddictbao-cun-zi-dian-you-xu.md)
 
