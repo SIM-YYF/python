@@ -103,21 +103,13 @@
   * [预激协程的装饰器](yi-bu-io/xie-cheng/yu-ji-xie-cheng-de-zhuang-shi-qi.md)
   * [终止协程和异常处理](yi-bu-io/xie-cheng/zhong-zhi-xie-cheng-he-yi-chang-chu-li.md)
   * [使用yield from让协程返回值](yi-bu-io/xie-cheng/shi-yong-yield-from-rang-xie-cheng-fan-hui-zhi.md)
-* [网络编程](wang-luo-bian-cheng.md)
-* [django](webfu-wu-qi.md)
-  * [1](webfu-wu-qi/1.md)
-* [Tornado](tornado.md)
-  * 1
-* [数据结构与算法](shu-ju-jie-gou.md)
-* [数据库](shu-ju-ku.md)
-  * [Mysql](shu-ju-ku/mysql.md)
-    * 1
-  * PostgreSQL
-  * mongodb
-  * redis
 * [算法](suan-fa.md)
   * [使用生成器打印杨辉三角\(即帕斯卡三角形\)](suan-fa/shi-yong-sheng-cheng-qi-da-yin-yang-hui-san-89d228-ji-pa-si-qia-san-jiao-5f6229.md)
 * [设计模式](she-ji-mo-shi.md)
   * [工厂模式](she-ji-mo-shi/gong-chang-mo-shi.md)
   * [单例模式](she-ji-mo-shi/dan-li-mo-shi.md)
+* [python中特殊事项](pythonzhong-te-shu-shi-xiang.md)
+
+
+
 
