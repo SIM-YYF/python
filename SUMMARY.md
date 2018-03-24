@@ -105,7 +105,8 @@
   * [使用yield from让协程返回值](yi-bu-io/xie-cheng/shi-yong-yield-from-rang-xie-cheng-fan-hui-zhi.md)
 * [常见的算法技巧](suan-fa.md)
   * [使用生成器打印杨辉三角\(即帕斯卡三角形\)](suan-fa/shi-yong-sheng-cheng-qi-da-yin-yang-hui-san-89d228-ji-pa-si-qia-san-jiao-5f6229.md)
-  * [阶乘](suan-fa/jie-cheng.md)
+  * [Counter统计字符出现的个数](pythonzhong-te-shu-shi-xiang/countertong-ji-zi-fu-chu-xian-de-ge-shu.md)
+  * [计算阶乘](suan-fa/jie-cheng.md)
 * [设计模式](she-ji-mo-shi.md)
   * [工厂模式](she-ji-mo-shi/gong-chang-mo-shi.md)
   * [单例模式](she-ji-mo-shi/dan-li-mo-shi.md)
@@ -113,5 +114,4 @@
   * [+=符号说明](pythonzhong-te-shu-shi-xiang/1.md)
   * [==、is 区别](pythonzhong-te-shu-shi-xiang/isqu-bie.md)
   * [OrderedDict 进行字典排序](pythonzhong-te-shu-shi-xiang/shi-yong-ordereddict-shi-xian-xian-jin-xian-chu-de-you-xu-zi-dian.md)
-  * [Counter统计字符出现的个数](pythonzhong-te-shu-shi-xiang/countertong-ji-zi-fu-chu-xian-de-ge-shu.md)
 
